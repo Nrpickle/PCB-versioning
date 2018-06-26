@@ -1,6 +1,6 @@
 * [ROSE](#rose)
   * [EBox Auxillary](#ebox-auxillary)
-    * [Version 1](#2345)
+    * [Version 1](#test)
     * [Version 2](#2345)
     * [Version 2.1](#2345)
     * [Version 3](#2345)
@@ -88,7 +88,7 @@
 
 -------------
 ## Power Distribution Board
-### Version 1<span id="234"></span>
+### Version 1<a name="test"></a>
 
 #### Silkscreen
 
