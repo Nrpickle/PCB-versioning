@@ -29,6 +29,7 @@ def format_output(d, index=0):
             output_string += "------------- \n"
             
             #table_of_contents_string += "    * [Version {}](#{})\n".format(k, k.replace(" ","-")) #this doesn't work because they're not unique
+            table_of_contents_string += "    * [Version {}](#2345)\n".format(k) #this doesn't work because they're not unique
 
 
             

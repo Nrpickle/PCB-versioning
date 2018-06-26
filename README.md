@@ -1,6 +1,14 @@
 * [ROSE](#rose)
   * [EBox Auxillary](#ebox-auxillary)
+    * [Version 1](#2345)
+    * [Version 2](#2345)
+    * [Version 2.1](#2345)
+    * [Version 3](#2345)
   * [Power Distribution Board](#power-distribution-board)
+    * [Version 1](#2345)
+    * [Version 2.1](#2345)
+    * [Version 2.2](#2345)
+    * [Version 2.3](#2345)
 
 # ROSE
 ## EBox Auxillary
@@ -26,7 +34,7 @@
 - Https://www.digikey.com/product-detail/en/alpha-omega-semiconductor-inc/ao3422/785-1015-1-nd/1855957
 
 -------------
-### Version 2<span id="2345"></span>
+### Version 2<span id="234"></span>
 
 #### Functional
 - Fuse the relays?
@@ -61,7 +69,7 @@
 - Add strain gauge sensor
 
 -------------
-### Version 3<span id="234"></span>
+### Version 3<span id="2345"></span>
 
 #### Functional
 - Add llc to the esc pwm output?
