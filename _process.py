@@ -8,6 +8,8 @@ walk_dir/PROJECT_NAME/PCB_NAME/Version X Issues.txt
 Within this issues file, the bigger headers are marked as ___ HEADER ___ while subheaders use one or two underscores (e.g. __ functional __). The bigger headers are usually used for the "Fixed" keyword to illustrate what was fixed in the next version.
 
 
+Potential future features (you might call them issues ;)
+
 '''
 
 
