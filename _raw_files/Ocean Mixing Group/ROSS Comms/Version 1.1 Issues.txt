@@ -1,10 +1,11 @@
 _silk_
-U7 label
+U7 label missing
 Make explicit C9, C10 orientation
 
 _functional_
 Add pull up/down resistor to XBee On/Off line so that it only activates when the uC tells it to
 C3/C4 GND Traces need to be strengthened
+Add more reliable power connector
 
 _misc_
 Make unnecessiarialy 0402 caps larger: C13, C14, C17, C20
