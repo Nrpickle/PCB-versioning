@@ -25,7 +25,7 @@ def format_output(d, index=0):
         else:
             print "{0} : {1}".format(k, v)
             random_id_no = random.randint(1, 15000)
-            output_string += "<a name=\"{}\"></span>".format(random_id_no) + "### Version " + str(k) + "\n"
+            output_string += "<a name=\"{}\"></span>\n".format(random_id_no) + "### Version " + str(k) + "\n"
             output_string += str(v) + "\n"
             output_string += "------------- \n"
             

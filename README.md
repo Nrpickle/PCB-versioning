@@ -1,18 +1,19 @@
 * [ROSE](#rose)
   * [EBox Auxillary](#ebox-auxillary)
-    * [Version 1](#6195)
-    * [Version 2](#7954)
-    * [Version 2.1](#1421)
-    * [Version 3](#4115)
+    * [Version 1](#13613)
+    * [Version 2](#690)
+    * [Version 2.1](#9956)
+    * [Version 3](#5490)
   * [Power Distribution Board](#power-distribution-board)
-    * [Version 1](#8644)
-    * [Version 2.1](#2506)
-    * [Version 2.2](#1965)
-    * [Version 2.3](#3052)
+    * [Version 1](#5240)
+    * [Version 2.1](#27)
+    * [Version 2.2](#5173)
+    * [Version 2.3](#3944)
 
 # ROSE
 ## EBox Auxillary
-<a name="6195"></span>### Version 1
+<a name="13613"></span>
+### Version 1
 
 #### Functional 
 - Fuse the relays
@@ -34,7 +35,8 @@
 - Https://www.digikey.com/product-detail/en/alpha-omega-semiconductor-inc/ao3422/785-1015-1-nd/1855957
 
 ------------- 
-<a name="7954"></span>### Version 2
+<a name="690"></span>
+### Version 2
 
 #### Functional 
 - Fuse the relays?
@@ -50,7 +52,8 @@
 - Reverse the ft2232 tx/rx labels to be more readable
 
 ------------- 
-<a name="1421"></span>### Version 2.1
+<a name="9956"></span>
+### Version 2.1
 
 #### Functional 
 - Fuse the relays?
@@ -69,7 +72,8 @@
 - Add strain gauge sensor
 
 ------------- 
-<a name="4115"></span>### Version 3
+<a name="5490"></span>
+### Version 3
 
 #### Functional 
 - Add llc to the esc pwm output?
@@ -88,7 +92,8 @@
 
 ------------- 
 ## Power Distribution Board
-<a name="8644"></span>### Version 1
+<a name="5240"></span>
+### Version 1
 
 #### Silkscreen 
 
@@ -149,7 +154,8 @@
 - Order more current sensors
 
 ------------- 
-<a name="2506"></span>### Version 2.1
+<a name="27"></span>
+### Version 2.1
 
 #### Silkscreen 
 
@@ -198,7 +204,8 @@
 - 20v switching regulator needs to be grounded, dumbass
 
 ------------- 
-<a name="1965"></span>### Version 2.2
+<a name="5173"></span>
+### Version 2.2
 
 #### Silkscreen 
 
@@ -244,7 +251,8 @@
 - Reminders:
 
 ------------- 
-<a name="3052"></span>### Version 2.3
+<a name="3944"></span>
+### Version 2.3
 
 #### Silkscreen 
 - Label male and female xt60s to be explicit
