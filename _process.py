@@ -24,12 +24,13 @@ def format_output(d, index=0):
             format_output(v, index+1)
         else:
             print "{0} : {1}".format(k, v)
-            output_string += "### Version " + str(k) + "<span id=\"234\"></span>\n"
+            random_id_no = random.randint(1, 15000)
+            output_string += "### Version " + str(k) + "<a name=\"{}\"></span>\n".format(random_id_no)
             output_string += str(v) + "\n"
             output_string += "------------- \n"
             
             #table_of_contents_string += "    * [Version {}](#{})\n".format(k, k.replace(" ","-")) #this doesn't work because they're not unique
-            table_of_contents_string += "    * [Version {}](#2345)\n".format(k) #this doesn't work because they're not unique
+            table_of_contents_string += "    * [Version {}](#{})\n".format(k, random_id_no) #this doesn't work because they're not unique
 
 
             
