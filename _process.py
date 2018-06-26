@@ -5,8 +5,8 @@ import random
 
 
 #constants:
-fixed_header = "#### "
-below_fixed_header = "##### "
+fixed_header = "### "
+below_fixed_header = "#### "
 
 def format_output(d, index=0):
     global output_string
@@ -14,14 +14,14 @@ def format_output(d, index=0):
         if isinstance(v, dict):
             if index == 0:
                 print "Project: " + str(k)
-                output_string += "## " + str(k) + "\n"
+                output_string += "# " + str(k) + "\n"
             if index == 1:
                 print "PCB: " + str(k)
-                output_string += "### " + str(k) + "\n"
+                output_string += "## " + str(k) + "\n"
             format_output(v, index+1)
         else:
             print "{0} : {1}".format(k, v)
-            output_string += "#### Version " + str(k) + "\n"
+            output_string += "### Version " + str(k) + "\n"
             output_string += "contents " + str(v) + "\n"
 
 

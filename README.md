@@ -1,16 +1,16 @@
-## ROSE
-### EBox Auxillary
-#### Version 1
+# ROSE
+## EBox Auxillary
+### Version 1
 contents 
-##### Functional 
+#### Functional 
 - Fuse the relays
 
-##### Silkscreen 
+#### Silkscreen 
 
-##### Documentation 
+#### Documentation 
 - Change molex connector pinouts
 
-#### **Fixed **
+### **Fixed **
 - Vin and agnd connected
 - Need to add more test points!
 - Add hall effect switches (d10 is down and d11 is up)
@@ -21,62 +21,62 @@ contents
 - Www.digikey.com/product-detail/en/cynergy-3/dat70515/725-1029-nd/752001
 - Https://www.digikey.com/product-detail/en/alpha-omega-semiconductor-inc/ao3422/785-1015-1-nd/1855957
 
-#### Version 2.1
+### Version 2.1
 contents 
-##### Functional 
+#### Functional 
 - Fuse the relays?
 - Add llc to the esc pwm output?
 
-##### Silkscreen 
+#### Silkscreen 
 
-##### Documentation 
+#### Documentation 
 - Change molex connector pinouts
 
-#### **Fixed **
+### **Fixed **
 
-##### Functional 
+#### Functional 
 - Gnd and voltage testpoints
 - Reduce size of ft2232 pads
 - Add strain gauge sensor
 
-#### Version 2
+### Version 2
 contents 
-##### Functional 
+#### Functional 
 - Fuse the relays?
 
-##### Silkscreen 
+#### Silkscreen 
 
-##### Documentation 
+#### Documentation 
 - Change molex connector pinouts
 
-#### **Fixed **
+### **Fixed **
 - Kill relay pads too small
 - Mosfet drain/source backwards
 - Reverse the ft2232 tx/rx labels to be more readable
 
-#### Version 3
+### Version 3
 contents 
-##### Functional 
+#### Functional 
 - Add llc to the esc pwm output?
 - Ensure traces are differentially routed for the usb datalines
 - Fix ft2232 functionality
 - Add sd card reader
 
-##### Silkscreen 
+#### Silkscreen 
 
-##### Documentation 
+#### Documentation 
 - Change molex connector pinouts
 
-#### **Fixed **
+### **Fixed **
 
-##### Functional 
+#### Functional 
 
-### Power Distribution Board
-#### Version 1
+## Power Distribution Board
+### Version 1
 contents 
-##### Silkscreen 
+#### Silkscreen 
 
-##### Functional 
+#### Functional 
 - #check j15 with external resource
 - Add testing input ports
 - Add reverse voltage protection?
@@ -84,20 +84,20 @@ contents
 - Recompute values for voltage detection op amp
 - Implement usb hub (296-43109-1-nd)
 
-##### Component selection 
+#### Component selection 
 - C8 not on bom
 - C9 not on bom
 - R11, r12 not on bom
 - C13 not on bom
 
-##### Inventory 
+#### Inventory 
 
-##### Documentation 
+#### Documentation 
 - Molex connector pinout needs to be fixed on internal documentation (they are currently reversed)
 
-#### **Fixed **
+### **Fixed **
 
-##### Silkscreen
+#### Silkscreen
 - Make j27 more clear
 - No versioning marks
 - C13 label is obscured
@@ -113,7 +113,7 @@ contents
 - Add ftdi breakout points (compatable with solderable in readers)
 - Orientation marks for molex connectors (2 and 3 pin)
 
-##### Functional
+#### Functional
 - Make large, multimeter gnd test point
 - Add dip setting switch
 - Remove q1
@@ -127,20 +127,20 @@ contents
 - Voltage sense system needs to change [need to accurately sense difference between 10 and 13 volts]
 - Ftdi missing gnd on pin 7
 
-##### Inventory
+#### Inventory
 - R16 not on bom
 - U5 not on bom
 - Order more current sensors
 
-#### Version 2.2
+### Version 2.2
 contents 
-##### Silkscreen 
+#### Silkscreen 
 
-##### Functional 
+#### Functional 
 
-##### Component selection 
+#### Component selection 
 
-##### Inventory 
+#### Inventory 
 - Need more 20v regulators
 - Need more 1.07k resistors
 - Need more 680 resistors
@@ -154,16 +154,16 @@ contents
 - Need more 10v shunts (u14)
 - Need more u16
 
-##### Documentation 
+#### Documentation 
 
-#### **Fixed **
+### **Fixed **
 
-##### Silkscreen
+#### Silkscreen
 - Labels for xtend tx/rx
 - Label for usb hub power supply
 - Label for rpi power molex connector
 
-##### Functional
+#### Functional
 - Remove 2.5v adc reference voltage's dependence from the 5v rail
 - Remove adc protection (refactor?)
 - Replace u8
@@ -172,31 +172,31 @@ contents
 - Make d14 level with the other leds
 - Vin of 20v switching regulator needs to be connected
 
-##### Component selection
+#### Component selection
 
-##### Inventory
+#### Inventory
 - Reminders:
 
-#### Version 2.1
+### Version 2.1
 contents 
-##### Silkscreen 
+#### Silkscreen 
 
-##### Functional 
+#### Functional 
 
-##### Component selection 
+#### Component selection 
 
-##### Inventory 
+#### Inventory 
 
-##### Documentation 
+#### Documentation 
 
-#### **Fixed **
+### **Fixed **
 
-##### Silkscreen
+#### Silkscreen
 - Uusb port label needs to be moved slightly higher [are these even needed?]
 - Serial number label
 - Label opamp resistors with a dot for ease of soldering
 
-##### Functional
+#### Functional
 - Route power through larger pads on the rear battery fuse
 - Reset pin on ftdi chip should not be tied low
 - Ensure usb connector pinout is correct (pdbv2.1 was flipped)
@@ -213,43 +213,43 @@ contents
 - The opamp measuring the rear voltage needs a gnd reference to the rear battery
 - - need to add a case if the rear battery isn't plugged in (as often happens), this could be a pull down resistor
 
-##### Component selection
+#### Component selection
 - C8 not on bom'
 - C9 not on bom
 - Replace3 tmp36 with smaller range tmp37 (20mv per deg c compared to 10mv per deg c) [this actually does not require any changes to the circuit]
 
-##### Inventory
+#### Inventory
 - Need more c4's
 - Need more c8's (a lot)
 - Reminders:
 - Unshelve polygons
 - 20v switching regulator needs to be grounded, dumbass
 
-#### Version 2.3
+### Version 2.3
 contents 
-##### Silkscreen 
+#### Silkscreen 
 - Label male and female xt60s to be explicit
 
-##### Functional 
+#### Functional 
 - Add post diode to midpower
 - Slightly larger relay holes
 - Ftdi usb connector flipped
 - Current sense capacitor location
 
-##### Component selection 
+#### Component selection 
 
-##### Inventory 
+#### Inventory 
 
-##### Documentation 
+#### Documentation 
 
-#### **Fixed **
+### **Fixed **
 
-##### Silkscreen
+#### Silkscreen
 
-##### Functional
+#### Functional
 
-##### Component selection
+#### Component selection
 
-##### Inventory
+#### Inventory
 - Reminders:
 
