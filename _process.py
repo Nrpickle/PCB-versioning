@@ -23,7 +23,7 @@ def format_output(d, index=0):
                 table_of_contents_string += "  * [{}](#{})\n".format(k, k.replace(" ","-").lower())
             format_output(v, index+1)
         else:
-            print "{0} : {1}".format(k, v)
+            #print "{0} : {1}".format(k, v)
             random_id_no = random.randint(1, 100000)
             output_string += "<a name=\"{}\"></span>\n".format(random_id_no) + "### Version " + str(k) + "\n"
             output_string += str(v) + "\n"
@@ -75,11 +75,11 @@ for root, directories, filenames in os.walk(walk_dir):
             if not x: continue
             #check for appropriate headers
             if x[:3] == "___": #then we're probably looking at a fixed header
-                print "Fixed header: ",
+                #print "Fixed header: ",
                 issue_string += "\n" +  fixed_header
                 is_fixed_header = True
             elif x[:2] == "__" or x[:1] == "_":
-                print "header: ",
+                #print "header: ",
                 issue_string += "\n" + below_fixed_header
             else: #We want to add a bullet point
                 issue_string += "- "
@@ -87,23 +87,24 @@ for root, directories, filenames in os.walk(walk_dir):
             x =  x.replace("_", "")
             x = x.lstrip()
             x = x.capitalize()
-            print x
+            #print x
             
             issue_string += x
             issue_string += "\n"
         
-        print "Issues: " + str(" to be filled in later")
+        #print "Issues: " + str(" to be filled in later")
         output_data[project_name][PCB_name][PCB_version] = issue_string
         issue_file.close()
-        print ""
+        #print ""
         
 
 
 format_output(output_data)
 
-print "Output string: " + str(output_string)
+intro_string = "This github repo parses my internal shorthand for recording issues with my PCBs and generates markdown to make it pretty. Reference [www.nickmccomb.net/pcb](www.nickmccomb.net/pcb) for more documentation on the PCBs themselves. \n\n Note that the \"fixed\" notation used in these messages reffers to something being fixed in the next version, and is moved to that category when the next version is being designed.\n"
 
-output_file.write(table_of_contents_string + "\n")
+output_file.write(intro_string)
+output_file.write("# Table of Contents \n" + table_of_contents_string + "\n")
 output_file.write(output_string)
 
 output_file.close()

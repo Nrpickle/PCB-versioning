@@ -1,35 +1,39 @@
+This github repo parses my internal shorthand for recording issues with my PCBs and generates markdown to make it pretty. Reference [www.nickmccomb.net/pcb](www.nickmccomb.net/pcb) for more documentation on the PCBs themselves. 
+
+ Note that the "fixed" notation used in these messages reffers to something being fixed in the next version, and is moved to that category when the next version is being designed.
+# Table of Contents 
 * [Personal](#personal)
   * [LATCH](#latch)
-    * [Version 1](#8301)
+    * [Version 1](#28562)
 * [ROSE](#rose)
   * [EBox Auxillary](#ebox-auxillary)
-    * [Version 1](#28833)
-    * [Version 2](#56897)
-    * [Version 2.1](#44353)
-    * [Version 3](#21039)
+    * [Version 1](#89619)
+    * [Version 2](#28188)
+    * [Version 2.1](#84409)
+    * [Version 3](#32140)
   * [Iridium 9603 Breakout](#iridium-9603-breakout)
-    * [Version 1](#47012)
+    * [Version 1](#37936)
   * [Low Voltage Disconnect](#low-voltage-disconnect)
-    * [Version 1](#91216)
+    * [Version 1](#10900)
   * [Power Distribution Board](#power-distribution-board)
-    * [Version 1](#47044)
-    * [Version 2.1](#57037)
-    * [Version 2.2](#24898)
-    * [Version 2.3](#22211)
+    * [Version 1](#80872)
+    * [Version 2.1](#75379)
+    * [Version 2.2](#51625)
+    * [Version 2.3](#60952)
   * [ROSS Comms](#ross-comms)
-    * [Version 1](#39588)
-    * [Version 1.1](#2862)
+    * [Version 1](#63728)
+    * [Version 1.1](#87908)
   * [Science Serial Adapter](#science-serial-adapter)
-    * [Version 1](#83759)
+    * [Version 1](#94900)
   * [XTend Daughterboard](#xtend-daughterboard)
-    * [Version 1](#75495)
-    * [Version 2](#26326)
-    * [Version 3](#39047)
-    * [Version 4](#68104)
+    * [Version 1](#68903)
+    * [Version 2](#16986)
+    * [Version 3](#5051)
+    * [Version 4](#12436)
 
 # Personal
 ## LATCH
-<a name="8301"></span>
+<a name="28562"></span>
 ### Version 1
 
 #### Functional
@@ -38,7 +42,7 @@
 ------------- 
 # ROSE
 ## EBox Auxillary
-<a name="28833"></span>
+<a name="89619"></span>
 ### Version 1
 
 #### Functional 
@@ -61,7 +65,7 @@
 - Https://www.digikey.com/product-detail/en/alpha-omega-semiconductor-inc/ao3422/785-1015-1-nd/1855957
 
 ------------- 
-<a name="56897"></span>
+<a name="28188"></span>
 ### Version 2
 
 #### Functional 
@@ -78,7 +82,7 @@
 - Reverse the ft2232 tx/rx labels to be more readable
 
 ------------- 
-<a name="44353"></span>
+<a name="84409"></span>
 ### Version 2.1
 
 #### Functional 
@@ -98,7 +102,7 @@
 - Add strain gauge sensor
 
 ------------- 
-<a name="21039"></span>
+<a name="32140"></span>
 ### Version 3
 
 #### Functional 
@@ -118,7 +122,7 @@
 
 ------------- 
 ## Iridium 9603 Breakout
-<a name="47012"></span>
+<a name="37936"></span>
 ### Version 1
 
 #### Functional
@@ -126,7 +130,7 @@
 
 ------------- 
 ## Low Voltage Disconnect
-<a name="91216"></span>
+<a name="10900"></span>
 ### Version 1
 
 #### Issues
@@ -138,7 +142,7 @@
 
 ------------- 
 ## Power Distribution Board
-<a name="47044"></span>
+<a name="80872"></span>
 ### Version 1
 
 #### Silkscreen 
@@ -200,7 +204,7 @@
 - Order more current sensors
 
 ------------- 
-<a name="57037"></span>
+<a name="75379"></span>
 ### Version 2.1
 
 #### Silkscreen 
@@ -250,7 +254,7 @@
 - 20v switching regulator needs to be grounded, dumbass
 
 ------------- 
-<a name="24898"></span>
+<a name="51625"></span>
 ### Version 2.2
 
 #### Silkscreen 
@@ -297,7 +301,7 @@
 - Reminders:
 
 ------------- 
-<a name="22211"></span>
+<a name="60952"></span>
 ### Version 2.3
 
 #### Silkscreen 
@@ -327,7 +331,7 @@
 
 ------------- 
 ## ROSS Comms
-<a name="39588"></span>
+<a name="63728"></span>
 ### Version 1
 
 #### Silk
@@ -346,7 +350,7 @@
 - Optional: add led output on xbee on/sleep output pin (by default apparently dio9)
 
 ------------- 
-<a name="2862"></span>
+<a name="87908"></span>
 ### Version 1.1
 
 #### Silk
@@ -364,7 +368,7 @@
 
 ------------- 
 ## Science Serial Adapter
-<a name="83759"></span>
+<a name="94900"></span>
 ### Version 1
 
 #### Silkscreen 
@@ -394,7 +398,7 @@
 
 ------------- 
 ## XTend Daughterboard
-<a name="75495"></span>
+<a name="68903"></span>
 ### Version 1
 
 #### Functional
@@ -409,7 +413,7 @@
 - Inductor pads too close together (check that moving apart doesn't expose ground plane to pads, maybe only an outward widening of pads is required) #note, these are actually perfect, they just are meant to reflow. i widened the pads to enable hand-soldering
 
 ------------- 
-<a name="26326"></span>
+<a name="16986"></span>
 ### Version 2
 
 #### Potential changes 
@@ -432,7 +436,7 @@
 - Increase size of aux holes, slightly
 
 ------------- 
-<a name="39047"></span>
+<a name="5051"></span>
 ### Version 3
 
 #### Silkscreen 
@@ -457,7 +461,7 @@
 - Add temperature sensor under the xtend? [no, because there is no uc on the ebox version, and we don't care about the temp of the xtend on the ground station]
 
 ------------- 
-<a name="68104"></span>
+<a name="12436"></span>
 ### Version 4
 
 #### Functional 
