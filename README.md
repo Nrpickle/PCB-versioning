@@ -1,18 +1,18 @@
 * [ROSE](#rose)
   * [EBox Auxillary](#ebox-auxillary)
-    * [Version 1](#14659)
-    * [Version 2](#5767)
-    * [Version 2.1](#3168)
-    * [Version 3](#9789)
+    * [Version 1](#6195)
+    * [Version 2](#7954)
+    * [Version 2.1](#1421)
+    * [Version 3](#4115)
   * [Power Distribution Board](#power-distribution-board)
-    * [Version 1](#3534)
-    * [Version 2.1](#5509)
-    * [Version 2.2](#7371)
-    * [Version 2.3](#1823)
+    * [Version 1](#8644)
+    * [Version 2.1](#2506)
+    * [Version 2.2](#1965)
+    * [Version 2.3](#3052)
 
 # ROSE
 ## EBox Auxillary
-### Version 1<a name="14659"></span>
+<a name="6195"></span>### Version 1
 
 #### Functional 
 - Fuse the relays
@@ -34,7 +34,7 @@
 - Https://www.digikey.com/product-detail/en/alpha-omega-semiconductor-inc/ao3422/785-1015-1-nd/1855957
 
 ------------- 
-### Version 2<a name="5767"></span>
+<a name="7954"></span>### Version 2
 
 #### Functional 
 - Fuse the relays?
@@ -50,7 +50,7 @@
 - Reverse the ft2232 tx/rx labels to be more readable
 
 ------------- 
-### Version 2.1<a name="3168"></span>
+<a name="1421"></span>### Version 2.1
 
 #### Functional 
 - Fuse the relays?
@@ -69,7 +69,7 @@
 - Add strain gauge sensor
 
 ------------- 
-### Version 3<a name="9789"></span>
+<a name="4115"></span>### Version 3
 
 #### Functional 
 - Add llc to the esc pwm output?
@@ -88,7 +88,7 @@
 
 ------------- 
 ## Power Distribution Board
-### Version 1<a name="3534"></span>
+<a name="8644"></span>### Version 1
 
 #### Silkscreen 
 
@@ -149,7 +149,7 @@
 - Order more current sensors
 
 ------------- 
-### Version 2.1<a name="5509"></span>
+<a name="2506"></span>### Version 2.1
 
 #### Silkscreen 
 
@@ -198,7 +198,7 @@
 - 20v switching regulator needs to be grounded, dumbass
 
 ------------- 
-### Version 2.2<a name="7371"></span>
+<a name="1965"></span>### Version 2.2
 
 #### Silkscreen 
 
@@ -244,7 +244,7 @@
 - Reminders:
 
 ------------- 
-### Version 2.3<a name="1823"></span>
+<a name="3052"></span>### Version 2.3
 
 #### Silkscreen 
 - Label male and female xt60s to be explicit
