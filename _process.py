@@ -16,16 +16,18 @@ def format_output(d, index=0):
             if index == 0:
                 print "Project: " + str(k)
                 output_string += "# " + str(k) + "\n"
-                table_of_contents_string += "[{}](#{})\n".format(k, k.replace(" ","-"))
+                table_of_contents_string += "* [{}](#{})\n".format(k, k.replace(" ","-"))
             if index == 1:
                 print "PCB: " + str(k)
                 output_string += "## " + str(k) + "\n"
+                table_of_contents_string += "  * [{}](#{})\n".format(k, k.replace(" ","-"))
             format_output(v, index+1)
         else:
             print "{0} : {1}".format(k, v)
             output_string += "### Version " + str(k) + "\n"
             output_string += str(v) + "\n"
             output_string += "------------- \n"
+            table_of_contents_string += "    * [Version {}](#{})\n".format(k, k.replace(" ","-"))
 
 
             
@@ -131,7 +133,7 @@ for x in test_file:
 test_file.close()
 #output_string += issue_string
 '''
-output_file.write(table_of_contents_string)
+output_file.write(table_of_contents_string + "\n")
 output_file.write(output_string)
 
 output_file.close()

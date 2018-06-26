@@ -1,4 +1,15 @@
-[ROSE](#ROSE)
+* [ROSE](#ROSE)
+  * [EBox Auxillary](#EBox-Auxillary)
+    * [Version 1](#1)
+    * [Version 2](#2)
+    * [Version 2.1](#2.1)
+    * [Version 3](#3)
+  * [Power Distribution Board](#Power-Distribution-Board)
+    * [Version 1](#1)
+    * [Version 2.1](#2.1)
+    * [Version 2.2](#2.2)
+    * [Version 2.3](#2.3)
+
 # ROSE
 ## EBox Auxillary
 ### Version 1
