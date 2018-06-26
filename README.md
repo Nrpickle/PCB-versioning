@@ -1,21 +1,28 @@
 * [Personal](#personal)
   * [LATCH](#latch)
-    * [Version 1](#55687)
+    * [Version 1](#30971)
 * [ROSE](#rose)
   * [EBox Auxillary](#ebox-auxillary)
-    * [Version 1](#99252)
-    * [Version 2](#60017)
-    * [Version 2.1](#9227)
-    * [Version 3](#247)
+    * [Version 1](#57219)
+    * [Version 2](#90764)
+    * [Version 2.1](#1266)
+    * [Version 3](#59429)
+  * [Iridium 9603 Breakout](#iridium-9603-breakout)
+    * [Version 1](#69013)
+  * [Low Voltage Disconnect](#low-voltage-disconnect)
+    * [Version 1](#54485)
   * [Power Distribution Board](#power-distribution-board)
-    * [Version 1](#7073)
-    * [Version 2.1](#82440)
-    * [Version 2.2](#6537)
-    * [Version 2.3](#51162)
+    * [Version 1](#9031)
+    * [Version 2.1](#33373)
+    * [Version 2.2](#95451)
+    * [Version 2.3](#36122)
+  * [ROSS Comms](#ross-comms)
+    * [Version 1](#7201)
+    * [Version 1.1](#28973)
 
 # Personal
 ## LATCH
-<a name="55687"></span>
+<a name="30971"></span>
 ### Version 1
 
 #### Functional
@@ -24,7 +31,7 @@
 ------------- 
 # ROSE
 ## EBox Auxillary
-<a name="99252"></span>
+<a name="57219"></span>
 ### Version 1
 
 #### Functional 
@@ -47,7 +54,7 @@
 - Https://www.digikey.com/product-detail/en/alpha-omega-semiconductor-inc/ao3422/785-1015-1-nd/1855957
 
 ------------- 
-<a name="60017"></span>
+<a name="90764"></span>
 ### Version 2
 
 #### Functional 
@@ -64,7 +71,7 @@
 - Reverse the ft2232 tx/rx labels to be more readable
 
 ------------- 
-<a name="9227"></span>
+<a name="1266"></span>
 ### Version 2.1
 
 #### Functional 
@@ -84,7 +91,7 @@
 - Add strain gauge sensor
 
 ------------- 
-<a name="247"></span>
+<a name="59429"></span>
 ### Version 3
 
 #### Functional 
@@ -103,8 +110,28 @@
 #### Functional 
 
 ------------- 
+## Iridium 9603 Breakout
+<a name="69013"></span>
+### Version 1
+
+#### Functional
+- Power on/off should be connected to 5v not 3v3
+
+------------- 
+## Low Voltage Disconnect
+<a name="54485"></span>
+### Version 1
+
+#### Issues
+- C4 and c3 should be swapped, .1uf drain cap and 100uf between vin and gnd
+- Vin cap's position cap needs to make sense, currently doesn't
+- Non-optimal layout for q1
+- Check layout for c3, needs to be directional and circular
+- Test pads are labeled incorrectly (backwards)
+
+------------- 
 ## Power Distribution Board
-<a name="7073"></span>
+<a name="9031"></span>
 ### Version 1
 
 #### Silkscreen 
@@ -166,7 +193,7 @@
 - Order more current sensors
 
 ------------- 
-<a name="82440"></span>
+<a name="33373"></span>
 ### Version 2.1
 
 #### Silkscreen 
@@ -216,7 +243,7 @@
 - 20v switching regulator needs to be grounded, dumbass
 
 ------------- 
-<a name="6537"></span>
+<a name="95451"></span>
 ### Version 2.2
 
 #### Silkscreen 
@@ -263,7 +290,7 @@
 - Reminders:
 
 ------------- 
-<a name="51162"></span>
+<a name="36122"></span>
 ### Version 2.3
 
 #### Silkscreen 
@@ -290,5 +317,42 @@
 #### Component selection
 
 #### Inventory
+
+------------- 
+## ROSS Comms
+<a name="7201"></span>
+### Version 1
+
+#### Silk
+
+#### Functional
+- Add pull up/down resistor to xbee on/off line so that it only activates when the uc tells it to
+
+### Fixed
+- Rgb led needs 3v3 on the anode instead of gnd
+- The iridium connector is backwards
+- Move r2 silk3
+- Add xtal silkscreen
+- C1 doesn't have polarity marking
+- Move c2 polarity marking
+- C12/c17 via hole causes confusion
+- Optional: add led output on xbee on/sleep output pin (by default apparently dio9)
+
+------------- 
+<a name="28973"></span>
+### Version 1.1
+
+#### Silk
+- U7 label
+- Make explicit c9, c10 orientation
+
+#### Functional
+- Add pull up/down resistor to xbee on/off line so that it only activates when the uc tells it to
+- C3/c4 gnd traces need to be strengthened
+
+#### Misc
+- Make unnecessiarialy 0402 caps larger: c13, c14, c17, c20
+
+### Fixed
 
 ------------- 

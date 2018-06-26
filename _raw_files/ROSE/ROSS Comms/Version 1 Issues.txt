@@ -1,0 +1,18 @@
+_silk_
+
+
+
+
+_functional_
+Add pull up/down resistor to XBee On/Off line so that it only activates when the uC tells it to
+
+
+___Fixed
+RGB led needs 3v3 on the anode instead of GND
+The Iridium Connector is backwards
+Move R2 silk3
+Add XTAL silkscreen
+C1 doesn't have polarity marking
+Move C2 polarity marking
+C12/C17 via hole causes confusion
+optional: Add LED output on XBee ON/SLEEP output pin (by default apparently DIO9)

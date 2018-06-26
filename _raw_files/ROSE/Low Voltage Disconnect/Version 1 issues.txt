@@ -1,0 +1,7 @@
+__ISSUES__
+
+C4 and C3 should be swapped, .1uf drain cap and 100uF between Vin and gnd
+Vin cap's position cap needs to make sense, currently doesn't
+Non-optimal layout for Q1
+Check layout for C3, needs to be directional and circular
+Test pads are labeled incorrectly (backwards)
