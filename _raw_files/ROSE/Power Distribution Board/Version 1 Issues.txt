@@ -4,7 +4,7 @@ __ Silkscreen __
 
 
 __ Functional __
-#Check J15 with external resource
+Check J15 with external resource
 Add testing input ports
 Add reverse voltage protection?
 Oscillator test point
