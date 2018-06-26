@@ -1,3 +1,4 @@
+[ROSE][#ROSE]
 # ROSE
 ## EBox Auxillary
 ### Version 1
@@ -81,7 +82,7 @@
 #### Silkscreen 
 
 #### Functional 
-- #check j15 with external resource
+- Check j15 with external resource
 - Add testing input ports
 - Add reverse voltage protection?
 - Oscillator test point
@@ -258,6 +259,5 @@
 #### Component selection
 
 #### Inventory
-- Reminders:
 
 ------------- 

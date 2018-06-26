@@ -10,11 +10,13 @@ below_fixed_header = "#### "
 
 def format_output(d, index=0):
     global output_string
+    global table_of_contents_string
     for k, v in sorted(d.iteritems()):
         if isinstance(v, dict):
             if index == 0:
                 print "Project: " + str(k)
                 output_string += "# " + str(k) + "\n"
+                table_of_contents_string += "[{}][#{}]\n".format(k, k.replace(" ","-"))
             if index == 1:
                 print "PCB: " + str(k)
                 output_string += "## " + str(k) + "\n"
@@ -44,6 +46,7 @@ print('walk_dir = ' + walk_dir)
 
 output_file = open(output_file_name, "w")
 output_string = ""
+table_of_contents_string = ""
 
 for root, directories, filenames in os.walk(walk_dir):
     for filename in filenames: 
@@ -128,7 +131,7 @@ for x in test_file:
 test_file.close()
 #output_string += issue_string
 '''
-
+output_file.write(table_of_contents_string)
 output_file.write(output_string)
 
 output_file.close()
