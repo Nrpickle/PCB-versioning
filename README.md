@@ -6,15 +6,15 @@
 ## EBox Auxillary
 ### Version 1<span id="234"></span>
 
-#### Functional 
+#### Functional
 - Fuse the relays
 
-#### Silkscreen 
+#### Silkscreen
 
-#### Documentation 
+#### Documentation
 - Change molex connector pinouts
 
-### Fixed 
+### Fixed
 - Vin and agnd connected
 - Need to add more test points!
 - Add hall effect switches (d10 is down and d11 is up)
@@ -25,66 +25,66 @@
 - Www.digikey.com/product-detail/en/cynergy-3/dat70515/725-1029-nd/752001
 - Https://www.digikey.com/product-detail/en/alpha-omega-semiconductor-inc/ao3422/785-1015-1-nd/1855957
 
-------------- 
-### Version 2<span id="234"></span>
+-------------
+### Version 2<span id="2345"></span>
 
-#### Functional 
+#### Functional
 - Fuse the relays?
 
-#### Silkscreen 
+#### Silkscreen
 
-#### Documentation 
+#### Documentation
 - Change molex connector pinouts
 
-### Fixed 
+### Fixed
 - Kill relay pads too small
 - Mosfet drain/source backwards
 - Reverse the ft2232 tx/rx labels to be more readable
 
-------------- 
+-------------
 ### Version 2.1<span id="234"></span>
 
-#### Functional 
+#### Functional
 - Fuse the relays?
 - Add llc to the esc pwm output?
 
-#### Silkscreen 
+#### Silkscreen
 
-#### Documentation 
+#### Documentation
 - Change molex connector pinouts
 
-### Fixed 
+### Fixed
 
-#### Functional 
+#### Functional
 - Gnd and voltage testpoints
 - Reduce size of ft2232 pads
 - Add strain gauge sensor
 
-------------- 
+-------------
 ### Version 3<span id="234"></span>
 
-#### Functional 
+#### Functional
 - Add llc to the esc pwm output?
 - Ensure traces are differentially routed for the usb datalines
 - Fix ft2232 functionality
 - Add sd card reader
 
-#### Silkscreen 
+#### Silkscreen
 
-#### Documentation 
+#### Documentation
 - Change molex connector pinouts
 
-### Fixed 
+### Fixed
 
-#### Functional 
+#### Functional
 
-------------- 
+-------------
 ## Power Distribution Board
 ### Version 1<span id="234"></span>
 
-#### Silkscreen 
+#### Silkscreen
 
-#### Functional 
+#### Functional
 - Check j15 with external resource
 - Add testing input ports
 - Add reverse voltage protection?
@@ -92,18 +92,18 @@
 - Recompute values for voltage detection op amp
 - Implement usb hub (296-43109-1-nd)
 
-#### Component selection 
+#### Component selection
 - C8 not on bom
 - C9 not on bom
 - R11, r12 not on bom
 - C13 not on bom
 
-#### Inventory 
+#### Inventory
 
-#### Documentation 
+#### Documentation
 - Molex connector pinout needs to be fixed on internal documentation (they are currently reversed)
 
-### Fixed 
+### Fixed
 
 #### Silkscreen
 - Make j27 more clear
@@ -140,20 +140,20 @@
 - U5 not on bom
 - Order more current sensors
 
-------------- 
+-------------
 ### Version 2.1<span id="234"></span>
 
-#### Silkscreen 
+#### Silkscreen
 
-#### Functional 
+#### Functional
 
-#### Component selection 
+#### Component selection
 
-#### Inventory 
+#### Inventory
 
-#### Documentation 
+#### Documentation
 
-### Fixed 
+### Fixed
 
 #### Silkscreen
 - Uusb port label needs to be moved slightly higher [are these even needed?]
@@ -189,16 +189,16 @@
 - Unshelve polygons
 - 20v switching regulator needs to be grounded, dumbass
 
-------------- 
+-------------
 ### Version 2.2<span id="234"></span>
 
-#### Silkscreen 
+#### Silkscreen
 
-#### Functional 
+#### Functional
 
-#### Component selection 
+#### Component selection
 
-#### Inventory 
+#### Inventory
 - Need more 20v regulators
 - Need more 1.07k resistors
 - Need more 680 resistors
@@ -212,9 +212,9 @@
 - Need more 10v shunts (u14)
 - Need more u16
 
-#### Documentation 
+#### Documentation
 
-### Fixed 
+### Fixed
 
 #### Silkscreen
 - Labels for xtend tx/rx
@@ -235,25 +235,25 @@
 #### Inventory
 - Reminders:
 
-------------- 
+-------------
 ### Version 2.3<span id="234"></span>
 
-#### Silkscreen 
+#### Silkscreen
 - Label male and female xt60s to be explicit
 
-#### Functional 
+#### Functional
 - Add post diode to midpower
 - Slightly larger relay holes
 - Ftdi usb connector flipped
 - Current sense capacitor location
 
-#### Component selection 
+#### Component selection
 
-#### Inventory 
+#### Inventory
 
-#### Documentation 
+#### Documentation
 
-### Fixed 
+### Fixed
 
 #### Silkscreen
 
@@ -263,4 +263,4 @@
 
 #### Inventory
 
-------------- 
+-------------
