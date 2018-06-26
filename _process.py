@@ -1,8 +1,14 @@
+'''
+Written by Nick McComb (www.nickmccomb.net) June 2018 to organize old files into something usable.
+
+
+'''
+
+
 import os
 import sys
 from collections import defaultdict, OrderedDict
 import random
-
 
 #constants:
 fixed_header = "### "
