@@ -1,0 +1,29 @@
+__ Silkscreen __
+
+__ Functional __
+
+RS232 Capability
+USB Connector Upside Down
+Add "Smart" capability?
+Doesn't work
+
+__ Component Selection __ 
+
+__ Inventory __
+
+
+__ Documentation __
+
+
+___ FIXED ___
+
+_silkscreen_
+
+
+_functional_
+
+_component selection_
+
+_inventory_
+
+Reminders:   

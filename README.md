@@ -1,28 +1,35 @@
 * [Personal](#personal)
   * [LATCH](#latch)
-    * [Version 1](#30971)
+    * [Version 1](#8301)
 * [ROSE](#rose)
   * [EBox Auxillary](#ebox-auxillary)
-    * [Version 1](#57219)
-    * [Version 2](#90764)
-    * [Version 2.1](#1266)
-    * [Version 3](#59429)
+    * [Version 1](#28833)
+    * [Version 2](#56897)
+    * [Version 2.1](#44353)
+    * [Version 3](#21039)
   * [Iridium 9603 Breakout](#iridium-9603-breakout)
-    * [Version 1](#69013)
+    * [Version 1](#47012)
   * [Low Voltage Disconnect](#low-voltage-disconnect)
-    * [Version 1](#54485)
+    * [Version 1](#91216)
   * [Power Distribution Board](#power-distribution-board)
-    * [Version 1](#9031)
-    * [Version 2.1](#33373)
-    * [Version 2.2](#95451)
-    * [Version 2.3](#36122)
+    * [Version 1](#47044)
+    * [Version 2.1](#57037)
+    * [Version 2.2](#24898)
+    * [Version 2.3](#22211)
   * [ROSS Comms](#ross-comms)
-    * [Version 1](#7201)
-    * [Version 1.1](#28973)
+    * [Version 1](#39588)
+    * [Version 1.1](#2862)
+  * [Science Serial Adapter](#science-serial-adapter)
+    * [Version 1](#83759)
+  * [XTend Daughterboard](#xtend-daughterboard)
+    * [Version 1](#75495)
+    * [Version 2](#26326)
+    * [Version 3](#39047)
+    * [Version 4](#68104)
 
 # Personal
 ## LATCH
-<a name="30971"></span>
+<a name="8301"></span>
 ### Version 1
 
 #### Functional
@@ -31,7 +38,7 @@
 ------------- 
 # ROSE
 ## EBox Auxillary
-<a name="57219"></span>
+<a name="28833"></span>
 ### Version 1
 
 #### Functional 
@@ -54,7 +61,7 @@
 - Https://www.digikey.com/product-detail/en/alpha-omega-semiconductor-inc/ao3422/785-1015-1-nd/1855957
 
 ------------- 
-<a name="90764"></span>
+<a name="56897"></span>
 ### Version 2
 
 #### Functional 
@@ -71,7 +78,7 @@
 - Reverse the ft2232 tx/rx labels to be more readable
 
 ------------- 
-<a name="1266"></span>
+<a name="44353"></span>
 ### Version 2.1
 
 #### Functional 
@@ -91,7 +98,7 @@
 - Add strain gauge sensor
 
 ------------- 
-<a name="59429"></span>
+<a name="21039"></span>
 ### Version 3
 
 #### Functional 
@@ -111,7 +118,7 @@
 
 ------------- 
 ## Iridium 9603 Breakout
-<a name="69013"></span>
+<a name="47012"></span>
 ### Version 1
 
 #### Functional
@@ -119,7 +126,7 @@
 
 ------------- 
 ## Low Voltage Disconnect
-<a name="54485"></span>
+<a name="91216"></span>
 ### Version 1
 
 #### Issues
@@ -131,7 +138,7 @@
 
 ------------- 
 ## Power Distribution Board
-<a name="9031"></span>
+<a name="47044"></span>
 ### Version 1
 
 #### Silkscreen 
@@ -193,7 +200,7 @@
 - Order more current sensors
 
 ------------- 
-<a name="33373"></span>
+<a name="57037"></span>
 ### Version 2.1
 
 #### Silkscreen 
@@ -243,7 +250,7 @@
 - 20v switching regulator needs to be grounded, dumbass
 
 ------------- 
-<a name="95451"></span>
+<a name="24898"></span>
 ### Version 2.2
 
 #### Silkscreen 
@@ -290,7 +297,7 @@
 - Reminders:
 
 ------------- 
-<a name="36122"></span>
+<a name="22211"></span>
 ### Version 2.3
 
 #### Silkscreen 
@@ -320,7 +327,7 @@
 
 ------------- 
 ## ROSS Comms
-<a name="7201"></span>
+<a name="39588"></span>
 ### Version 1
 
 #### Silk
@@ -339,7 +346,7 @@
 - Optional: add led output on xbee on/sleep output pin (by default apparently dio9)
 
 ------------- 
-<a name="28973"></span>
+<a name="2862"></span>
 ### Version 1.1
 
 #### Silk
@@ -354,5 +361,109 @@
 - Make unnecessiarialy 0402 caps larger: c13, c14, c17, c20
 
 ### Fixed
+
+------------- 
+## Science Serial Adapter
+<a name="83759"></span>
+### Version 1
+
+#### Silkscreen 
+
+#### Functional 
+- Rs232 capability
+- Usb connector upside down
+- Add "smart" capability?
+- Doesn't work
+
+#### Component selection 
+
+#### Inventory 
+
+#### Documentation 
+
+### Fixed 
+
+#### Silkscreen
+
+#### Functional
+
+#### Component selection
+
+#### Inventory
+- Reminders:
+
+------------- 
+## XTend Daughterboard
+<a name="75495"></span>
+### Version 1
+
+#### Functional
+- If barrel jack holes are not drilled, then v+ does not connect to vin
+
+### Fixed
+- Xtend footprint incorrect
+- Df13 holes too small (should be .5 mm)
+- Led footprint wrong
+- If using barebones, increase ground plane clearance, for ease of soldering
+- Barebones - barrel jack holes not drilled
+- Inductor pads too close together (check that moving apart doesn't expose ground plane to pads, maybe only an outward widening of pads is required) #note, these are actually perfect, they just are meant to reflow. i widened the pads to enable hand-soldering
+
+------------- 
+<a name="26326"></span>
+### Version 2
+
+#### Potential changes 
+- Use right angle header for mcu connection: http://www.digikey.com/product-detail/en/90136-2205/wm8206-nd/415812z
+
+#### Issues 
+- U4 (comparitor) completely wrong form factor [n/a]
+- Increase size of 5vsw vias [n/a]
+- Add clear label to px connector
+- Pour ground plane
+
+### Fixed  
+- Barrel jack footprint wrong
+- Label c1 orientation
+- Add orientation lines to c2 and d4
+- Change c1 orientation
+- Fix current monitor
+- Extend gnd plane under
+- Change r5 value (rssi resistor) to 60-100 ohms
+- Increase size of aux holes, slightly
+
+------------- 
+<a name="39047"></span>
+### Version 3
+
+#### Silkscreen 
+
+#### Connectors 
+- Switch to df13's that can solder to the board (e.g. the ones the pixhawk uses)
+
+#### Functional 
+
+#### Documentation 
+- Molex connector pinout needs to be fixed on internal documentation (they are currently reversed)
+
+### Fixed 
+- Max voltage input is actually 16v (limited by the barrel jack)
+- Dot for u1
+- Di pin was not routed to the molex connector
+- C1 c2 labels need to rotate -90
+- Many "0 width" labels got printed and should be removed (test points, mounting holes)
+- Label mcu pin 1
+
+#### # denied #
+- Add temperature sensor under the xtend? [no, because there is no uc on the ebox version, and we don't care about the temp of the xtend on the ground station]
+
+------------- 
+<a name="68104"></span>
+### Version 4
+
+#### Functional 
+- Oscillator pads were tented (ordered from df robot)
+
+#### Silkscreen 
+- Tx/rx pairs are backwards. this is down to the label on the schemaitc, and therefore is backwards on the board
 
 ------------- 

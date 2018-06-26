@@ -1,0 +1,11 @@
+__Functional__
+
+If barrel jack holes are not drilled, then V+ does not connect to Vin
+
+___Fixed___
+XTend Footprint incorrect
+DF13 holes too small (should be .5 mm)
+LED Footprint wrong
+If using barebones, increase ground plane clearance, for ease of soldering
+Barebones - Barrel Jack holes not drilled
+Inductor pads too close together (check that moving apart doesn't expose ground plane to pads, maybe only an outward widening of pads is required) #Note, these are actually perfect, they just are meant to reflow. I widened the pads to enable hand-soldering

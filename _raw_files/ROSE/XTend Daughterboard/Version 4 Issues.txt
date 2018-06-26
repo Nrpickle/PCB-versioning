@@ -1,0 +1,5 @@
+_ Functional _
+Oscillator pads were tented (ordered from DF Robot)
+
+_ Silkscreen _
+TX/RX Pairs are backwards. This is down to the label on the schemaitc, and therefore is backwards on the board

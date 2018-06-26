@@ -1,0 +1,23 @@
+__ Potential Changes __
+
+Use Right Angle Header for MCU connection: http://www.digikey.com/product-detail/en/90136-2205/WM8206-ND/415812z
+
+__ Issues __
+
+U4 (comparitor) completely wrong form factor [N/A]
+Increase size of 5V_SW vias [N/A]
+
+Add clear label to PX connector
+
+POUR GROUND PLANE
+
+___ Fixed  __
+
+Barrel Jack footprint wrong
+Label C1 orientation
+Add orientation lines to C2 and D4
+Change C1 orientation
+fix current monitor
+Extend GND plane under 
+Change R5 value (RSSI resistor) to 60-100 ohms
+Increase size of aux holes, slightly

@@ -1,0 +1,23 @@
+__ Silkscreen __
+
+__ Connectors __
+
+Switch to DF13's that can solder to the board (e.g. the ones the Pixhawk uses)
+
+__ Functional __ 
+
+
+__ Documentation __ 
+Molex connector pinout needs to be fixed on internal documentation (they are currently reversed)
+
+
+____ Fixed ____
+Max Voltage Input is actually 16V (limited by the Barrel Jack)
+Dot for U1
+DI pin was not routed to the Molex Connector
+C1 C2 labels need to rotate -90
+Many "0 width" labels got printed and should be removed (Test Points, Mounting Holes)
+Label MCU pin 1
+
+__#_ DENIED _#__
+Add temperature sensor under the XTend? [No, because there is no uC on the EBox version, and we don't care about the temp of the XTend on the ground station]
