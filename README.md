@@ -1,18 +1,30 @@
+* [Personal](#personal)
+  * [LATCH](#latch)
+    * [Version 1](#55687)
 * [ROSE](#rose)
   * [EBox Auxillary](#ebox-auxillary)
-    * [Version 1](#13613)
-    * [Version 2](#690)
-    * [Version 2.1](#9956)
-    * [Version 3](#5490)
+    * [Version 1](#99252)
+    * [Version 2](#60017)
+    * [Version 2.1](#9227)
+    * [Version 3](#247)
   * [Power Distribution Board](#power-distribution-board)
-    * [Version 1](#5240)
-    * [Version 2.1](#27)
-    * [Version 2.2](#5173)
-    * [Version 2.3](#3944)
+    * [Version 1](#7073)
+    * [Version 2.1](#82440)
+    * [Version 2.2](#6537)
+    * [Version 2.3](#51162)
 
+# Personal
+## LATCH
+<a name="55687"></span>
+### Version 1
+
+#### Functional
+- Ws2812 footprint totes wrong
+
+------------- 
 # ROSE
 ## EBox Auxillary
-<a name="13613"></span>
+<a name="99252"></span>
 ### Version 1
 
 #### Functional 
@@ -35,7 +47,7 @@
 - Https://www.digikey.com/product-detail/en/alpha-omega-semiconductor-inc/ao3422/785-1015-1-nd/1855957
 
 ------------- 
-<a name="690"></span>
+<a name="60017"></span>
 ### Version 2
 
 #### Functional 
@@ -52,7 +64,7 @@
 - Reverse the ft2232 tx/rx labels to be more readable
 
 ------------- 
-<a name="9956"></span>
+<a name="9227"></span>
 ### Version 2.1
 
 #### Functional 
@@ -72,7 +84,7 @@
 - Add strain gauge sensor
 
 ------------- 
-<a name="5490"></span>
+<a name="247"></span>
 ### Version 3
 
 #### Functional 
@@ -92,7 +104,7 @@
 
 ------------- 
 ## Power Distribution Board
-<a name="5240"></span>
+<a name="7073"></span>
 ### Version 1
 
 #### Silkscreen 
@@ -154,7 +166,7 @@
 - Order more current sensors
 
 ------------- 
-<a name="27"></span>
+<a name="82440"></span>
 ### Version 2.1
 
 #### Silkscreen 
@@ -204,7 +216,7 @@
 - 20v switching regulator needs to be grounded, dumbass
 
 ------------- 
-<a name="5173"></span>
+<a name="6537"></span>
 ### Version 2.2
 
 #### Silkscreen 
@@ -251,7 +263,7 @@
 - Reminders:
 
 ------------- 
-<a name="3944"></span>
+<a name="51162"></span>
 ### Version 2.3
 
 #### Silkscreen 

@@ -24,7 +24,7 @@ def format_output(d, index=0):
             format_output(v, index+1)
         else:
             print "{0} : {1}".format(k, v)
-            random_id_no = random.randint(1, 15000)
+            random_id_no = random.randint(1, 100000)
             output_string += "<a name=\"{}\"></span>\n".format(random_id_no) + "### Version " + str(k) + "\n"
             output_string += str(v) + "\n"
             output_string += "------------- \n"
@@ -103,39 +103,6 @@ format_output(output_data)
 
 print "Output string: " + str(output_string)
 
-
-'''
-test_file = open("_raw_files\ROSE\Power Distribution Board\Version 1 Issues.txt", "r")
-
-
-
-issue_string = ""
-
-#Iterate through the file
-for x in test_file:
-    x = x.rstrip()
-    if not x: continue
-    #check for appropriate headers
-    if x[:3] == "___": #then we're probably looking at a fixed header
-        print "Fixed header: ",
-        issue_string += "\n" +  fixed_header
-    elif x[:2] == "__" or x[:1] == "_":
-        print "header: ",
-        issue_string += "\n" + below_fixed_header
-    else: #We want to add a bullet point
-        issue_string += "- "
-
-    x =  x.replace("_", "")
-    x = x.lstrip()
-    x = x.capitalize()
-    print x
-    
-    issue_string += x
-    issue_string += "\n"
-
-test_file.close()
-#output_string += issue_string
-'''
 output_file.write(table_of_contents_string + "\n")
 output_file.write(output_string)
 
