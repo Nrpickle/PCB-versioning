@@ -16,7 +16,7 @@ def format_output(d, index=0):
             if index == 0:
                 print "Project: " + str(k)
                 output_string += "# " + str(k) + "\n"
-                table_of_contents_string += "[{}][#{}]\n".format(k, k.replace(" ","-"))
+                table_of_contents_string += "[{}](#{})\n".format(k, k.replace(" ","-"))
             if index == 1:
                 print "PCB: " + str(k)
                 output_string += "## " + str(k) + "\n"
