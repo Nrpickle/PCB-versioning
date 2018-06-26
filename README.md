@@ -10,7 +10,7 @@ contents
 #### Documentation 
 - Change molex connector pinouts
 
-### **Fixed **
+### Fixed 
 - Vin and agnd connected
 - Need to add more test points!
 - Add hall effect switches (d10 is down and d11 is up)
@@ -32,7 +32,7 @@ contents
 #### Documentation 
 - Change molex connector pinouts
 
-### **Fixed **
+### Fixed 
 - Kill relay pads too small
 - Mosfet drain/source backwards
 - Reverse the ft2232 tx/rx labels to be more readable
@@ -49,7 +49,7 @@ contents
 #### Documentation 
 - Change molex connector pinouts
 
-### **Fixed **
+### Fixed 
 
 #### Functional 
 - Gnd and voltage testpoints
@@ -70,7 +70,7 @@ contents
 #### Documentation 
 - Change molex connector pinouts
 
-### **Fixed **
+### Fixed 
 
 #### Functional 
 
@@ -99,7 +99,7 @@ contents
 #### Documentation 
 - Molex connector pinout needs to be fixed on internal documentation (they are currently reversed)
 
-### **Fixed **
+### Fixed 
 
 #### Silkscreen
 - Make j27 more clear
@@ -149,7 +149,7 @@ contents
 
 #### Documentation 
 
-### **Fixed **
+### Fixed 
 
 #### Silkscreen
 - Uusb port label needs to be moved slightly higher [are these even needed?]
@@ -210,7 +210,7 @@ contents
 
 #### Documentation 
 
-### **Fixed **
+### Fixed 
 
 #### Silkscreen
 - Labels for xtend tx/rx
@@ -249,7 +249,7 @@ contents
 
 #### Documentation 
 
-### **Fixed **
+### Fixed 
 
 #### Silkscreen
 

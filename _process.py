@@ -63,13 +63,12 @@ for root, directories, filenames in os.walk(walk_dir):
 
         #Iterate through the file
         for x in issue_file:
-            is_fixed_header = False
             x = x.rstrip()
             if not x: continue
             #check for appropriate headers
             if x[:3] == "___": #then we're probably looking at a fixed header
                 print "Fixed header: ",
-                issue_string += "\n" +  fixed_header + "**"
+                issue_string += "\n" +  fixed_header
                 is_fixed_header = True
             elif x[:2] == "__" or x[:1] == "_":
                 print "header: ",
@@ -83,9 +82,6 @@ for root, directories, filenames in os.walk(walk_dir):
             print x
             
             issue_string += x
-            #special case to end emphasis for fixed header
-            if is_fixed_header:
-                issue_string += "**"
             issue_string += "\n"
         
         print "Issues: " + str(" to be filled in later")
@@ -100,8 +96,9 @@ format_output(output_data)
 print "Output string: " + str(output_string)
 
 
-
+'''
 test_file = open("_raw_files\ROSE\Power Distribution Board\Version 1 Issues.txt", "r")
+
 
 
 issue_string = ""
@@ -129,9 +126,8 @@ for x in test_file:
     issue_string += "\n"
 
 test_file.close()
-
 #output_string += issue_string
-
+'''
 
 output_file.write(output_string)
 
