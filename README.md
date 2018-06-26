@@ -1,7 +1,7 @@
 # ROSE
 ## EBox Auxillary
 ### Version 1
-contents 
+
 #### Functional 
 - Fuse the relays
 
@@ -23,7 +23,7 @@ contents
 
 ------------- 
 ### Version 2
-contents 
+
 #### Functional 
 - Fuse the relays?
 
@@ -39,7 +39,7 @@ contents
 
 ------------- 
 ### Version 2.1
-contents 
+
 #### Functional 
 - Fuse the relays?
 - Add llc to the esc pwm output?
@@ -58,7 +58,7 @@ contents
 
 ------------- 
 ### Version 3
-contents 
+
 #### Functional 
 - Add llc to the esc pwm output?
 - Ensure traces are differentially routed for the usb datalines
@@ -77,7 +77,7 @@ contents
 ------------- 
 ## Power Distribution Board
 ### Version 1
-contents 
+
 #### Silkscreen 
 
 #### Functional 
@@ -138,7 +138,7 @@ contents
 
 ------------- 
 ### Version 2.1
-contents 
+
 #### Silkscreen 
 
 #### Functional 
@@ -187,7 +187,7 @@ contents
 
 ------------- 
 ### Version 2.2
-contents 
+
 #### Silkscreen 
 
 #### Functional 
@@ -233,7 +233,7 @@ contents
 
 ------------- 
 ### Version 2.3
-contents 
+
 #### Silkscreen 
 - Label male and female xt60s to be explicit
 

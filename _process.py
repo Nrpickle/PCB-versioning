@@ -22,7 +22,7 @@ def format_output(d, index=0):
         else:
             print "{0} : {1}".format(k, v)
             output_string += "### Version " + str(k) + "\n"
-            output_string += "contents " + str(v) + "\n"
+            output_string += str(v) + "\n"
             output_string += "------------- \n"
 
 
