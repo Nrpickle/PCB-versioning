@@ -2,38 +2,104 @@ This github repo parses my internal shorthand for recording issues with my PCBs 
 
  Note that the "fixed" notation used in these messages reffers to something being fixed in the next version, and is moved to that category when the next version is being designed.
 # Table of Contents 
+* [OSU Robotics Club](#osu-robotics-club)
+  * [Iris](#iris)
+    * [Version 1](#65825)
+    * [Version 2](#85152)
+  * [Motor Node](#motor-node)
+    * [Version 1](#75573)
 * [Ocean Mixing Group](#ocean-mixing-group)
   * [EBox Auxillary](#ebox-auxillary)
-    * [Version 1](#57072)
-    * [Version 2](#41311)
-    * [Version 2.1](#10859)
-    * [Version 3](#90439)
+    * [Version 1](#44056)
+    * [Version 2](#47957)
+    * [Version 2.1](#55234)
+    * [Version 3](#5834)
   * [Iridium 9603 Breakout](#iridium-9603-breakout)
-    * [Version 1](#7492)
+    * [Version 1](#37097)
   * [Low Voltage Disconnect](#low-voltage-disconnect)
-    * [Version 1](#30945)
+    * [Version 1](#75796)
   * [Power Distribution Board](#power-distribution-board)
-    * [Version 1](#86889)
-    * [Version 2.1](#70525)
-    * [Version 2.2](#62127)
-    * [Version 2.3](#48273)
+    * [Version 1](#27101)
+    * [Version 2.1](#67413)
+    * [Version 2.2](#36108)
+    * [Version 2.3](#36463)
   * [ROSS Comms](#ross-comms)
-    * [Version 1](#80809)
-    * [Version 1.1](#36259)
+    * [Version 1](#15098)
+    * [Version 1.1](#70350)
   * [Science Serial Adapter](#science-serial-adapter)
-    * [Version 1](#90163)
+    * [Version 1](#8105)
   * [XTend Daughterboard](#xtend-daughterboard)
-    * [Version 1](#36089)
-    * [Version 2](#16791)
-    * [Version 3](#89994)
-    * [Version 4](#9734)
+    * [Version 1](#80295)
+    * [Version 2](#3221)
+    * [Version 3](#77611)
+    * [Version 4](#78624)
 * [Personal](#personal)
   * [LATCH](#latch)
-    * [Version 1](#7989)
+    * [Version 1](#97681)
 
+# OSU Robotics Club
+## Iris
+<a name="65825"></span>
+### Version 1
+
+#### Silkscreen 
+- No serial number spot on silkscreen
+- No modbus id number spot on silkscreen
+
+#### Functional 
+- Used can tx/rx instead of hardware uart
+- Connections from ftdi to rs485 transceiver wrong, need to short de / re pins together, then this connection goes to ftdi enable. pwren for the rs485 converted is wrong naming and doesn’t reflect its purpose. no connection to pwren on 4232 needed...
+- Likely that this should use a high-speed usb hub instead of the current full-speed implementation. it is easy, without deliberate planning, to hit the bottleneck of the usb hub.
+- No invert needed for s.bus connection (bridge pins)
+- Missing 3v3 rail connection to vbat pin on teensy. will program without it, but will not boot without it.
+- Remove gnd connection for rs485 going out of the board (to ensure reverse protection downstream)
+
+#### Component selection 
+- For r46 vs r47 selection, only r47 is needed.
+
+#### Inventory 
+
+#### Documentation 
+
+------------- 
+<a name="85152"></span>
+### Version 2
+
+#### Silkscreen 
+- U87 pin 1 silkscreen dot not visible
+- R1 silkscreen not visible
+
+#### Functional 
+
+#### Component selection 
+
+#### Inventory 
+
+#### Documentation 
+
+------------- 
+## Motor Node
+<a name="75573"></span>
+### Version 1
+
+#### Silkscreen 
+
+#### Functional 
+- Missing 3v3 rail connection to vbat on teensy. will program without it, but will not boot without it. connect vbat (pin 21) to the 3v3 side of c12 (closest to the xtal)
+- Mcu mistakenly connected to the 5vsys, needs to be connected to the 3v3 net (as there is no 5v net on this board)
+- Rgb led missing 3v3 anode connection. currently connected to non-present 5vsys net.
+
+#### Component selection 
+- Switching regulator that was purchased is not compatible with the design. a pin-compatible new one was specc'd and ordered, it is included in the bom as "alternative" parts. only u1, l1, c2, and r1 are changed. an 1n4148 diode also needs to be added per lt1933's datasheet. see schematic: https://raw.githubusercontent.com/osuroboticsclub/rover20172018/master/electrical/documents/nodes/files/motorv1bodge1.jpg
+
+#### Inventory 
+
+#### Documentation 
+
+------------- 
 # Ocean Mixing Group
 ## EBox Auxillary
-<a name="57072"></span>
+<a name="44056"></span>
 ### Version 1
 
 #### Functional 
@@ -56,7 +122,7 @@ This github repo parses my internal shorthand for recording issues with my PCBs 
 - Https://www.digikey.com/product-detail/en/alpha-omega-semiconductor-inc/ao3422/785-1015-1-nd/1855957
 
 ------------- 
-<a name="41311"></span>
+<a name="47957"></span>
 ### Version 2
 
 #### Functional 
@@ -73,7 +139,7 @@ This github repo parses my internal shorthand for recording issues with my PCBs 
 - Reverse the ft2232 tx/rx labels to be more readable
 
 ------------- 
-<a name="10859"></span>
+<a name="55234"></span>
 ### Version 2.1
 
 #### Functional 
@@ -93,7 +159,7 @@ This github repo parses my internal shorthand for recording issues with my PCBs 
 - Add strain gauge sensor
 
 ------------- 
-<a name="90439"></span>
+<a name="5834"></span>
 ### Version 3
 
 #### Functional 
@@ -113,7 +179,7 @@ This github repo parses my internal shorthand for recording issues with my PCBs 
 
 ------------- 
 ## Iridium 9603 Breakout
-<a name="7492"></span>
+<a name="37097"></span>
 ### Version 1
 
 #### Functional
@@ -121,7 +187,7 @@ This github repo parses my internal shorthand for recording issues with my PCBs 
 
 ------------- 
 ## Low Voltage Disconnect
-<a name="30945"></span>
+<a name="75796"></span>
 ### Version 1
 
 #### Issues
@@ -133,7 +199,7 @@ This github repo parses my internal shorthand for recording issues with my PCBs 
 
 ------------- 
 ## Power Distribution Board
-<a name="86889"></span>
+<a name="27101"></span>
 ### Version 1
 
 #### Silkscreen 
@@ -195,7 +261,7 @@ This github repo parses my internal shorthand for recording issues with my PCBs 
 - Order more current sensors
 
 ------------- 
-<a name="70525"></span>
+<a name="67413"></span>
 ### Version 2.1
 
 #### Silkscreen 
@@ -245,7 +311,7 @@ This github repo parses my internal shorthand for recording issues with my PCBs 
 - 20v switching regulator needs to be grounded, dumbass
 
 ------------- 
-<a name="62127"></span>
+<a name="36108"></span>
 ### Version 2.2
 
 #### Silkscreen 
@@ -292,7 +358,7 @@ This github repo parses my internal shorthand for recording issues with my PCBs 
 - Reminders:
 
 ------------- 
-<a name="48273"></span>
+<a name="36463"></span>
 ### Version 2.3
 
 #### Silkscreen 
@@ -322,7 +388,7 @@ This github repo parses my internal shorthand for recording issues with my PCBs 
 
 ------------- 
 ## ROSS Comms
-<a name="80809"></span>
+<a name="15098"></span>
 ### Version 1
 
 #### Silk
@@ -341,7 +407,7 @@ This github repo parses my internal shorthand for recording issues with my PCBs 
 - Optional: add led output on xbee on/sleep output pin (by default apparently dio9)
 
 ------------- 
-<a name="36259"></span>
+<a name="70350"></span>
 ### Version 1.1
 
 #### Silk
@@ -359,7 +425,7 @@ This github repo parses my internal shorthand for recording issues with my PCBs 
 
 ------------- 
 ## Science Serial Adapter
-<a name="90163"></span>
+<a name="8105"></span>
 ### Version 1
 
 #### Silkscreen 
@@ -389,7 +455,7 @@ This github repo parses my internal shorthand for recording issues with my PCBs 
 
 ------------- 
 ## XTend Daughterboard
-<a name="36089"></span>
+<a name="80295"></span>
 ### Version 1
 
 #### Functional
@@ -404,7 +470,7 @@ This github repo parses my internal shorthand for recording issues with my PCBs 
 - Inductor pads too close together (check that moving apart doesn't expose ground plane to pads, maybe only an outward widening of pads is required) #note, these are actually perfect, they just are meant to reflow. i widened the pads to enable hand-soldering
 
 ------------- 
-<a name="16791"></span>
+<a name="3221"></span>
 ### Version 2
 
 #### Potential changes 
@@ -427,7 +493,7 @@ This github repo parses my internal shorthand for recording issues with my PCBs 
 - Increase size of aux holes, slightly
 
 ------------- 
-<a name="89994"></span>
+<a name="77611"></span>
 ### Version 3
 
 #### Silkscreen 
@@ -452,7 +518,7 @@ This github repo parses my internal shorthand for recording issues with my PCBs 
 - Add temperature sensor under the xtend? [no, because there is no uc on the ebox version, and we don't care about the temp of the xtend on the ground station]
 
 ------------- 
-<a name="9734"></span>
+<a name="78624"></span>
 ### Version 4
 
 #### Functional 
@@ -464,7 +530,7 @@ This github repo parses my internal shorthand for recording issues with my PCBs 
 ------------- 
 # Personal
 ## LATCH
-<a name="7989"></span>
+<a name="97681"></span>
 ### Version 1
 
 #### Functional

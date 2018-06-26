@@ -1,0 +1,12 @@
+__ Silkscreen __
+
+U8_7 pin 1 silkscreen dot not visible 
+R1 silkscreen not visible
+
+__ Functional __
+
+__ Component Selection __ 
+
+__ Inventory __
+
+__ Documentation __
