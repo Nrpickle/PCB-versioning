@@ -1,0 +1,2 @@
+_functional_
+J2 pinout incorrect (needs to be swizzled)

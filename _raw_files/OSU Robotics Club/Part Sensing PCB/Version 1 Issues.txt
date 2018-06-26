@@ -1,0 +1,3 @@
+_functional_
+Needs to change to actual multiplexing IC
+Need to add the same connectors as the drawer sensing PCB
