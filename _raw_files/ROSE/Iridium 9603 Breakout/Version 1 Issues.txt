@@ -1,0 +1,2 @@
+__Functional__
+Power On/Off should be connected to 5v not 3v3
