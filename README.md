@@ -21,6 +21,7 @@ contents
 - Www.digikey.com/product-detail/en/cynergy-3/dat70515/725-1029-nd/752001
 - Https://www.digikey.com/product-detail/en/alpha-omega-semiconductor-inc/ao3422/785-1015-1-nd/1855957
 
+------------- 
 ### Version 2.1
 contents 
 #### Functional 
@@ -39,6 +40,7 @@ contents
 - Reduce size of ft2232 pads
 - Add strain gauge sensor
 
+------------- 
 ### Version 2
 contents 
 #### Functional 
@@ -54,6 +56,7 @@ contents
 - Mosfet drain/source backwards
 - Reverse the ft2232 tx/rx labels to be more readable
 
+------------- 
 ### Version 3
 contents 
 #### Functional 
@@ -71,6 +74,7 @@ contents
 
 #### Functional 
 
+------------- 
 ## Power Distribution Board
 ### Version 1
 contents 
@@ -132,6 +136,7 @@ contents
 - U5 not on bom
 - Order more current sensors
 
+------------- 
 ### Version 2.2
 contents 
 #### Silkscreen 
@@ -177,6 +182,7 @@ contents
 #### Inventory
 - Reminders:
 
+------------- 
 ### Version 2.1
 contents 
 #### Silkscreen 
@@ -225,6 +231,7 @@ contents
 - Unshelve polygons
 - 20v switching regulator needs to be grounded, dumbass
 
+------------- 
 ### Version 2.3
 contents 
 #### Silkscreen 
@@ -253,3 +260,4 @@ contents
 #### Inventory
 - Reminders:
 
+------------- 
