@@ -16,11 +16,11 @@ def format_output(d, index=0):
             if index == 0:
                 print "Project: " + str(k)
                 output_string += "# " + str(k) + "\n"
-                table_of_contents_string += "* [{}](#{})\n".format(k, k.replace(" ","-"))
+                table_of_contents_string += "* [{}](#{})\n".format(k, k.replace(" ","-").lower())
             if index == 1:
                 print "PCB: " + str(k)
                 output_string += "## " + str(k) + "\n"
-                table_of_contents_string += "  * [{}](#{})\n".format(k, k.replace(" ","-"))
+                table_of_contents_string += "  * [{}](#{})\n".format(k, k.replace(" ","-").lower())
             format_output(v, index+1)
         else:
             print "{0} : {1}".format(k, v)
