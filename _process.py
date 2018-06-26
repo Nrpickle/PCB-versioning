@@ -107,7 +107,7 @@ for root, directories, filenames in os.walk(walk_dir):
 
 format_output(output_data)
 
-intro_string = "This github repo parses my internal shorthand for recording issues with my PCBs and generates markdown to make it pretty. Reference [www.nickmccomb.net/pcb](www.nickmccomb.net/pcb) for more documentation on the PCBs themselves. \n\n Note that the \"fixed\" notation used in these messages reffers to something being fixed in the next version, and is moved to that category when the next version is being designed.\n"
+intro_string = "This github repo parses my internal shorthand for recording issues with my PCBs and generates markdown to make it pretty. Reference [www.nickmccomb.net/pcb](http://www.nickmccomb.net/pcb) for more documentation on the PCBs themselves. \n\n Note that the \"fixed\" notation used in these messages reffers to something being fixed in the next version, and is moved to that category when the next version is being designed.\n"
 
 output_file.write(intro_string)
 output_file.write("# Table of Contents \n" + table_of_contents_string + "\n")
