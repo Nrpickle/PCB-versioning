@@ -1,0 +1,62 @@
+__ Silkscreen __
+
+
+
+
+__ Functional __
+#Check J15 with external resource
+Add testing input ports
+Add reverse voltage protection?
+Oscillator test point
+Recompute values for voltage detection Op Amp
+Implement USB Hub (296-43109-1-ND)
+
+
+__ Component Selection __ 
+C8 not on BOM
+C9 not on BOM
+R11, R12 not on BOM
+C13 not on BOM
+
+__ Inventory __
+
+
+__ Documentation __
+Molex connector pinout needs to be fixed on internal documentation (they are currently reversed)
+
+____ FIXED ____
+
+__Silkscreen__
+Make J27 more clear
+No versioning marks
+C13 label is obscured
+Label aux6 and aux7 servo ports as 5v
+R15 label is obscured
+J20 and C12 labels conflict
+C17 label is obscured
+Receiver is misspelt
+C4 is poorly labeled
+LED Orientation dots need to be bigger (pcbway didn't print some of them)
+Red LED is oriented opposite of green ones
+Fix Oscillator footprint to comply with AVR186 (done as much as I'm going to)
+Add FTDI breakout points (compatable with solderable in readers)
+Orientation marks for Molex Connectors (2 and 3 pin)
+
+__Functional__
+Make large, multimeter gnd test point
+Add DIP setting switch
+Remove Q1
+Vias touch the Crystal's case
+Add fusing for rear aux power (REAR_BATT_POWER), we blew a fuse
+Relay pinout is incorrect (activate the diode with the uC)
+J27's polarity is reversed
+Add solder to 27 large mounting holes
+U8 pinout too large (about 2x)
+J15's pads were placed on the wrong side of the board (meaning they're reversed)
+Voltage Sense system needs to change [need to accurately sense difference between 10 and 13 volts]
+FTDI Missing GND on pin 7
+
+__Inventory__
+R16 not on BOM
+U5 not on BOM
+Order more current sensors

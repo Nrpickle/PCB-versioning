@@ -1,0 +1,49 @@
+__ Silkscreen __
+
+__ Functional __
+
+__ Component Selection __ 
+
+__ Inventory __
+
+__ Documentation __
+
+
+___ FIXED ___
+
+_silkscreen_
+uUSB Port label needs to be moved slightly higher [Are these even needed?]
+Serial Number label
+Label OpAmp resistors with a dot for ease of soldering
+
+_functional_
+Route power through larger pads on the Rear Battery Fuse
+Reset pin on FTDI chip should not be tied low
+Ensure USB Connector pinout is correct (PDBv2.1 was flipped)
+Switching trace for 20v supply needs to be HIGH POWER
+Replace separate FTDI chips with double
+Build in protection for the ADC so it can't receive 20v (diodes!)
+Add 5v rail to voltage sense OpAmp
+Add test points for: Temperature sensor, single current IC sense line
+Add smoothing capacitor on temperature sensor (<=1uF)
+Add auxiliary connection for RasPi 5v/Power the RasPi using Molex Connector instead of USB
+Current going from FTDI device to rest of circuit? [This really won't be an issue, though, because the whole system will be on always]
+Add vertical USB connector: reference Solidworks model of mounting plate for placement
+Replace 330uF capacitor with through hole.
+The OpAmp measuring the rear voltage needs a gnd reference to the rear battery
+- Need to add a case if the rear battery isn't plugged in (as often happens), this could be a pull down resistor
+
+_component selection_
+C8 not on BOM'
+C9 not on BOM
+Replace3 TMP36 with smaller range TMP37 (20mV per deg C compared to 10mV per deg C) [This actually does not require any changes to the circuit]
+
+_inventory_
+Need more C4's
+Need more C8's (a lot)
+
+
+Reminders:
+
+Unshelve polygons
+20v switching regulator needs to be GROUNDED, dumbass

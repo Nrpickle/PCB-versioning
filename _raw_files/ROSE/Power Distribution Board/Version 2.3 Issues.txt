@@ -1,0 +1,31 @@
+__ Silkscreen __
+
+Label male and female XT60s to be explicit
+
+__ Functional __
+
+Add post diode to MID_POWER
+Slightly larger relay holes
+FTDI USB Connector flipped
+Current sense capacitor location
+
+__ Component Selection __ 
+
+__ Inventory __
+
+
+__ Documentation __
+
+
+___ FIXED ___
+
+_silkscreen_
+
+_functional_
+
+
+_component selection_
+
+_inventory_
+
+Reminders:   

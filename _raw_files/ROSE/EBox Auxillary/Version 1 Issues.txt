@@ -1,0 +1,28 @@
+__ Functional __
+Fuse the Relays
+
+__ Silkscreen __
+
+
+
+__ Documentation __ 
+
+Change Molex connector pinouts
+
+
+
+
+___ FIXED ___
+Vin and Agnd connected
+Need to add more test points! 
+Add Hall effect switches (D10 is down and D11 is up)
+
+
+D4 needs to be KILL and D5 needs to be START (currently they are reversed)
+Change TX/RX directions on the Molex serial connector
+ 
+Add Serial Number
+
+www.digikey.com/product-detail/en/omron-electronics-inc-emc-div/G5LE-1-E-DC5/Z2616-ND/1277875
+www.digikey.com/product-detail/en/cynergy-3/DAT70515/725-1029-ND/752001
+https://www.digikey.com/product-detail/en/alpha-omega-semiconductor-inc/AO3422/785-1015-1-ND/1855957

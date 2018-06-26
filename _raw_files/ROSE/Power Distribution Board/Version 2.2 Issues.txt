@@ -1,0 +1,53 @@
+__ Silkscreen __
+
+
+__ Functional __
+
+
+
+
+
+
+__ Component Selection __ 
+
+__ Inventory __
+Need more 20v regulators
+Need more 1.07K resistors
+Need more 680 resistors
+Need more 10K resistors
+Need more 220 resistors
+Need more 2.7uF caps
+Need more 10uF caps
+Need more 4.7uF caps
+Need more 3.3uF caps
+Need more current sensors (U2, U3, U4, U9)
+Need more 10v shunts (U14)
+Need more U16
+
+
+__ Documentation __
+
+
+___ FIXED ___
+
+_silkscreen_
+Labels for XTend TX/RX
+Label for USB Hub Power Supply
+Label for RPi power molex connector
+
+
+_functional_
+Remove 2.5v ADC reference voltage's dependence from the 5v rail
+Remove ADC protection (refactor?)
+Replace U8
+Connect a precision reference voltage (e.g. 10v through a resisitor divider into the ADC void SendStringPC(const char stufftosend[]))
+Connect multiple, if possible?
+Make D14 level with the other LEDs
+Vin of 20v switching regulator needs to be connected
+
+
+_component selection_
+
+_inventory_
+
+Reminders:   

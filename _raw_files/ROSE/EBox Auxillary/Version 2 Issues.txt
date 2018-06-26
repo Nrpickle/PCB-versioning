@@ -1,0 +1,13 @@
+__ Functional __
+Fuse the Relays?
+
+__ Silkscreen __
+
+
+__ Documentation __ 
+Change Molex connector pinouts
+
+___ FIXED ___
+Kill relay pads too small
+MOSFET drain/source backwards
+Reverse the FT2232 TX/RX labels to be more readable

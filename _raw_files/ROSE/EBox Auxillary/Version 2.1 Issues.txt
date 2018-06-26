@@ -1,0 +1,17 @@
+__ Functional __
+Fuse the Relays?
+Add LLC to the ESC PWM output?
+
+
+__ Silkscreen __
+
+
+__ Documentation __ 
+Change Molex connector pinouts
+
+___ FIXED ___
+
+_ functional _
+GND and voltage testpoints
+Reduce size of FT2232 pads
+Add strain gauge sensor

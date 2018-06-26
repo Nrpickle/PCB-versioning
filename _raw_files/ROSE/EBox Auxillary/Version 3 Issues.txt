@@ -1,0 +1,14 @@
+__ Functional __
+Add LLC to the ESC PWM output?
+Ensure traces are differentially routed for the USB datalines
+Fix FT2232 functionality
+Add SD Card Reader
+
+__ Silkscreen __
+
+__ Documentation __ 
+Change Molex connector pinouts
+
+___ FIXED ___
+
+_ functional _
