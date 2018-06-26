@@ -27,5 +27,3 @@ _functional_
 _component selection_
 
 _inventory_
-
-Reminders:   
