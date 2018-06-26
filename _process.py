@@ -24,10 +24,11 @@ def format_output(d, index=0):
             format_output(v, index+1)
         else:
             print "{0} : {1}".format(k, v)
-            output_string += "### Version " + str(k) + "\n"
+            output_string += "### Version " + str(k) + "<span id=\"234\"></span>\n"
             output_string += str(v) + "\n"
             output_string += "------------- \n"
-            table_of_contents_string += "    * [Version {}](#{})\n".format(k, k.replace(" ","-"))
+            
+            #table_of_contents_string += "    * [Version {}](#{})\n".format(k, k.replace(" ","-")) #this doesn't work because they're not unique
 
 
             

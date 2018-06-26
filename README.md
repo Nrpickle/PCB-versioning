@@ -1,18 +1,10 @@
 * [ROSE](#rose)
   * [EBox Auxillary](#ebox-auxillary)
-    * [Version 1](#1)
-    * [Version 2](#2)
-    * [Version 2.1](#2.1)
-    * [Version 3](#3)
   * [Power Distribution Board](#power-distribution-board)
-    * [Version 1](#1)
-    * [Version 2.1](#2.1)
-    * [Version 2.2](#2.2)
-    * [Version 2.3](#2.3)
 
 # ROSE
 ## EBox Auxillary
-### Version 1
+### Version 1<span id="234"></span>
 
 #### Functional 
 - Fuse the relays
@@ -34,7 +26,7 @@
 - Https://www.digikey.com/product-detail/en/alpha-omega-semiconductor-inc/ao3422/785-1015-1-nd/1855957
 
 ------------- 
-### Version 2
+### Version 2<span id="234"></span>
 
 #### Functional 
 - Fuse the relays?
@@ -50,7 +42,7 @@
 - Reverse the ft2232 tx/rx labels to be more readable
 
 ------------- 
-### Version 2.1
+### Version 2.1<span id="234"></span>
 
 #### Functional 
 - Fuse the relays?
@@ -69,7 +61,7 @@
 - Add strain gauge sensor
 
 ------------- 
-### Version 3
+### Version 3<span id="234"></span>
 
 #### Functional 
 - Add llc to the esc pwm output?
@@ -88,7 +80,7 @@
 
 ------------- 
 ## Power Distribution Board
-### Version 1
+### Version 1<span id="234"></span>
 
 #### Silkscreen 
 
@@ -149,7 +141,7 @@
 - Order more current sensors
 
 ------------- 
-### Version 2.1
+### Version 2.1<span id="234"></span>
 
 #### Silkscreen 
 
@@ -198,7 +190,7 @@
 - 20v switching regulator needs to be grounded, dumbass
 
 ------------- 
-### Version 2.2
+### Version 2.2<span id="234"></span>
 
 #### Silkscreen 
 
@@ -244,7 +236,7 @@
 - Reminders:
 
 ------------- 
-### Version 2.3
+### Version 2.3<span id="234"></span>
 
 #### Silkscreen 
 - Label male and female xt60s to be explicit
