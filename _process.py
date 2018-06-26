@@ -1,6 +1,6 @@
 import os
 import sys
-from collections import defaultdict
+from collections import defaultdict, OrderedDict
 import random
 
 
@@ -10,7 +10,7 @@ below_fixed_header = "#### "
 
 def format_output(d, index=0):
     global output_string
-    for k, v in d.iteritems():
+    for k, v in sorted(d.iteritems()):
         if isinstance(v, dict):
             if index == 0:
                 print "Project: " + str(k)
@@ -108,14 +108,12 @@ issue_string = ""
 
 #Iterate through the file
 for x in test_file:
-    is_fixed_header = False
     x = x.rstrip()
     if not x: continue
     #check for appropriate headers
     if x[:3] == "___": #then we're probably looking at a fixed header
         print "Fixed header: ",
-        issue_string += "\n" +  fixed_header + "**"
-        is_fixed_header = True
+        issue_string += "\n" +  fixed_header
     elif x[:2] == "__" or x[:1] == "_":
         print "header: ",
         issue_string += "\n" + below_fixed_header
@@ -128,9 +126,6 @@ for x in test_file:
     print x
     
     issue_string += x
-    #special case to end emphasis for fixed header
-    if is_fixed_header:
-        issue_string += "**"
     issue_string += "\n"
 
 test_file.close()

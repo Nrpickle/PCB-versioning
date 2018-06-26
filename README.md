@@ -22,6 +22,22 @@ contents
 - Https://www.digikey.com/product-detail/en/alpha-omega-semiconductor-inc/ao3422/785-1015-1-nd/1855957
 
 ------------- 
+### Version 2
+contents 
+#### Functional 
+- Fuse the relays?
+
+#### Silkscreen 
+
+#### Documentation 
+- Change molex connector pinouts
+
+### **Fixed **
+- Kill relay pads too small
+- Mosfet drain/source backwards
+- Reverse the ft2232 tx/rx labels to be more readable
+
+------------- 
 ### Version 2.1
 contents 
 #### Functional 
@@ -39,22 +55,6 @@ contents
 - Gnd and voltage testpoints
 - Reduce size of ft2232 pads
 - Add strain gauge sensor
-
-------------- 
-### Version 2
-contents 
-#### Functional 
-- Fuse the relays?
-
-#### Silkscreen 
-
-#### Documentation 
-- Change molex connector pinouts
-
-### **Fixed **
-- Kill relay pads too small
-- Mosfet drain/source backwards
-- Reverse the ft2232 tx/rx labels to be more readable
 
 ------------- 
 ### Version 3
@@ -137,52 +137,6 @@ contents
 - Order more current sensors
 
 ------------- 
-### Version 2.2
-contents 
-#### Silkscreen 
-
-#### Functional 
-
-#### Component selection 
-
-#### Inventory 
-- Need more 20v regulators
-- Need more 1.07k resistors
-- Need more 680 resistors
-- Need more 10k resistors
-- Need more 220 resistors
-- Need more 2.7uf caps
-- Need more 10uf caps
-- Need more 4.7uf caps
-- Need more 3.3uf caps
-- Need more current sensors (u2, u3, u4, u9)
-- Need more 10v shunts (u14)
-- Need more u16
-
-#### Documentation 
-
-### **Fixed **
-
-#### Silkscreen
-- Labels for xtend tx/rx
-- Label for usb hub power supply
-- Label for rpi power molex connector
-
-#### Functional
-- Remove 2.5v adc reference voltage's dependence from the 5v rail
-- Remove adc protection (refactor?)
-- Replace u8
-- Connect a precision reference voltage (e.g. 10v through a resisitor divider into the adc void sendstringpc(const char stufftosend[]))
-- Connect multiple, if possible?
-- Make d14 level with the other leds
-- Vin of 20v switching regulator needs to be connected
-
-#### Component selection
-
-#### Inventory
-- Reminders:
-
-------------- 
 ### Version 2.1
 contents 
 #### Silkscreen 
@@ -230,6 +184,52 @@ contents
 - Reminders:
 - Unshelve polygons
 - 20v switching regulator needs to be grounded, dumbass
+
+------------- 
+### Version 2.2
+contents 
+#### Silkscreen 
+
+#### Functional 
+
+#### Component selection 
+
+#### Inventory 
+- Need more 20v regulators
+- Need more 1.07k resistors
+- Need more 680 resistors
+- Need more 10k resistors
+- Need more 220 resistors
+- Need more 2.7uf caps
+- Need more 10uf caps
+- Need more 4.7uf caps
+- Need more 3.3uf caps
+- Need more current sensors (u2, u3, u4, u9)
+- Need more 10v shunts (u14)
+- Need more u16
+
+#### Documentation 
+
+### **Fixed **
+
+#### Silkscreen
+- Labels for xtend tx/rx
+- Label for usb hub power supply
+- Label for rpi power molex connector
+
+#### Functional
+- Remove 2.5v adc reference voltage's dependence from the 5v rail
+- Remove adc protection (refactor?)
+- Replace u8
+- Connect a precision reference voltage (e.g. 10v through a resisitor divider into the adc void sendstringpc(const char stufftosend[]))
+- Connect multiple, if possible?
+- Make d14 level with the other leds
+- Vin of 20v switching regulator needs to be connected
+
+#### Component selection
+
+#### Inventory
+- Reminders:
 
 ------------- 
 ### Version 2.3
