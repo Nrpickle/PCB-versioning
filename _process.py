@@ -9,6 +9,7 @@ Within this issues file, the bigger headers are marked as ___ HEADER ___ while s
 
 
 Potential future features (you might call them issues ;)
+- use the github-generated anchors for the sub-headings instead of the random number method (will require more careful counting), though this might not be value added unless they are guarenteed to to be unique (besides easier diffs)
 
 '''
 

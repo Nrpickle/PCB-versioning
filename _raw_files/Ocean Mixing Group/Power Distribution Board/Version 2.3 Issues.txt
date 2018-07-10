@@ -9,6 +9,8 @@ Slightly larger relay holes
 FTDI USB Connector flipped
 Current sense capacitor location
 
+See https://docs.google.com/document/d/1_UHByf3HJkuiDIpYNgwm3wegVkR15vKysuBUm6zRU_Y/edit#heading=h.uw9nmv2oclim for future plans for the PDB
+
 __ Component Selection __ 
 
 __ Inventory __
