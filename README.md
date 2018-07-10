@@ -4,46 +4,46 @@ This github repo parses my internal shorthand for recording issues with my PCBs 
 # Table of Contents 
 * [OSU Robotics Club](#osu-robotics-club)
   * [Drawer Sensing PCB](#drawer-sensing-pcb)
-    * [Version 1](#34239)
+    * [Version 1](#65141)
   * [Iris](#iris)
-    * [Version 1](#21559)
-    * [Version 2](#11137)
+    * [Version 1](#87934)
+    * [Version 2](#28218)
   * [Motor Node](#motor-node)
-    * [Version 1](#25720)
+    * [Version 1](#40872)
   * [Part Sensing PCB](#part-sensing-pcb)
-    * [Version 1](#2925)
+    * [Version 1](#12469)
 * [Ocean Mixing Group](#ocean-mixing-group)
   * [EBox Auxillary](#ebox-auxillary)
-    * [Version 1](#4487)
-    * [Version 2](#35083)
-    * [Version 2.1](#88503)
-    * [Version 3](#737)
+    * [Version 1](#61303)
+    * [Version 2](#2594)
+    * [Version 2.1](#27706)
+    * [Version 3](#93971)
   * [Iridium 9603 Breakout](#iridium-9603-breakout)
-    * [Version 1](#74077)
+    * [Version 1](#62152)
   * [Low Voltage Disconnect](#low-voltage-disconnect)
-    * [Version 1](#84545)
+    * [Version 1](#47376)
   * [Power Distribution Board](#power-distribution-board)
-    * [Version 1](#29287)
-    * [Version 2.1](#98555)
-    * [Version 2.2](#38026)
-    * [Version 2.3](#66270)
+    * [Version 1](#27542)
+    * [Version 2.1](#51347)
+    * [Version 2.2](#38876)
+    * [Version 2.3](#77314)
   * [ROSS Comms](#ross-comms)
-    * [Version 1](#28831)
-    * [Version 1.1](#76988)
+    * [Version 1](#8430)
+    * [Version 1.1](#36256)
   * [Science Serial Adapter](#science-serial-adapter)
-    * [Version 1](#38102)
+    * [Version 1](#24257)
   * [XTend Daughterboard](#xtend-daughterboard)
-    * [Version 1](#87085)
-    * [Version 2](#15808)
-    * [Version 3](#56291)
-    * [Version 4](#97747)
+    * [Version 1](#25853)
+    * [Version 2](#42003)
+    * [Version 3](#76855)
+    * [Version 4](#31953)
 * [Personal](#personal)
   * [LATCH](#latch)
-    * [Version 1](#58586)
+    * [Version 1](#83670)
 
 # OSU Robotics Club
 ## Drawer Sensing PCB
-<a name="34239"></span>
+<a name="65141"></span>
 ### Version 1
 
 #### Functional
@@ -51,7 +51,7 @@ This github repo parses my internal shorthand for recording issues with my PCBs 
 
 ------------- 
 ## Iris
-<a name="21559"></span>
+<a name="87934"></span>
 ### Version 1
 
 #### Silkscreen 
@@ -74,7 +74,7 @@ This github repo parses my internal shorthand for recording issues with my PCBs 
 #### Documentation 
 
 ------------- 
-<a name="11137"></span>
+<a name="28218"></span>
 ### Version 2
 
 #### Silkscreen 
@@ -91,7 +91,7 @@ This github repo parses my internal shorthand for recording issues with my PCBs 
 
 ------------- 
 ## Motor Node
-<a name="25720"></span>
+<a name="40872"></span>
 ### Version 1
 
 #### Silkscreen 
@@ -110,7 +110,7 @@ This github repo parses my internal shorthand for recording issues with my PCBs 
 
 ------------- 
 ## Part Sensing PCB
-<a name="2925"></span>
+<a name="12469"></span>
 ### Version 1
 
 #### Functional
@@ -120,7 +120,7 @@ This github repo parses my internal shorthand for recording issues with my PCBs 
 ------------- 
 # Ocean Mixing Group
 ## EBox Auxillary
-<a name="4487"></span>
+<a name="61303"></span>
 ### Version 1
 
 #### Functional 
@@ -143,7 +143,7 @@ This github repo parses my internal shorthand for recording issues with my PCBs 
 - Https://www.digikey.com/product-detail/en/alpha-omega-semiconductor-inc/ao3422/785-1015-1-nd/1855957
 
 ------------- 
-<a name="35083"></span>
+<a name="2594"></span>
 ### Version 2
 
 #### Functional 
@@ -160,7 +160,7 @@ This github repo parses my internal shorthand for recording issues with my PCBs 
 - Reverse the ft2232 tx/rx labels to be more readable
 
 ------------- 
-<a name="88503"></span>
+<a name="27706"></span>
 ### Version 2.1
 
 #### Functional 
@@ -180,7 +180,7 @@ This github repo parses my internal shorthand for recording issues with my PCBs 
 - Add strain gauge sensor
 
 ------------- 
-<a name="737"></span>
+<a name="93971"></span>
 ### Version 3
 
 #### Functional 
@@ -200,7 +200,7 @@ This github repo parses my internal shorthand for recording issues with my PCBs 
 
 ------------- 
 ## Iridium 9603 Breakout
-<a name="74077"></span>
+<a name="62152"></span>
 ### Version 1
 
 #### Functional
@@ -208,7 +208,7 @@ This github repo parses my internal shorthand for recording issues with my PCBs 
 
 ------------- 
 ## Low Voltage Disconnect
-<a name="84545"></span>
+<a name="47376"></span>
 ### Version 1
 
 #### Issues
@@ -220,7 +220,7 @@ This github repo parses my internal shorthand for recording issues with my PCBs 
 
 ------------- 
 ## Power Distribution Board
-<a name="29287"></span>
+<a name="27542"></span>
 ### Version 1
 
 #### Silkscreen 
@@ -282,7 +282,7 @@ This github repo parses my internal shorthand for recording issues with my PCBs 
 - Order more current sensors
 
 ------------- 
-<a name="98555"></span>
+<a name="51347"></span>
 ### Version 2.1
 
 #### Silkscreen 
@@ -332,7 +332,7 @@ This github repo parses my internal shorthand for recording issues with my PCBs 
 - 20v switching regulator needs to be grounded, dumbass
 
 ------------- 
-<a name="38026"></span>
+<a name="38876"></span>
 ### Version 2.2
 
 #### Silkscreen 
@@ -379,7 +379,7 @@ This github repo parses my internal shorthand for recording issues with my PCBs 
 - Reminders:
 
 ------------- 
-<a name="66270"></span>
+<a name="77314"></span>
 ### Version 2.3
 
 #### Silkscreen 
@@ -390,6 +390,7 @@ This github repo parses my internal shorthand for recording issues with my PCBs 
 - Slightly larger relay holes
 - Ftdi usb connector flipped
 - Current sense capacitor location
+- Soft-start from new power conditioner upstream requires addition of a power supervisor to the microcontroller (such as ds1233az-10+ct-nd)
 - See https://docs.google.com/document/d/1uhbyf3hjkuidipyngwm3wegvkr15vkysubum6zruy/edit#heading=h.uw9nmv2oclim for future plans for the pdb
 
 #### Component selection 
@@ -410,7 +411,7 @@ This github repo parses my internal shorthand for recording issues with my PCBs 
 
 ------------- 
 ## ROSS Comms
-<a name="28831"></span>
+<a name="8430"></span>
 ### Version 1
 
 #### Silk
@@ -429,7 +430,7 @@ This github repo parses my internal shorthand for recording issues with my PCBs 
 - Optional: add led output on xbee on/sleep output pin (by default apparently dio9)
 
 ------------- 
-<a name="76988"></span>
+<a name="36256"></span>
 ### Version 1.1
 
 #### Silk
@@ -448,7 +449,7 @@ This github repo parses my internal shorthand for recording issues with my PCBs 
 
 ------------- 
 ## Science Serial Adapter
-<a name="38102"></span>
+<a name="24257"></span>
 ### Version 1
 
 #### Silkscreen 
@@ -478,7 +479,7 @@ This github repo parses my internal shorthand for recording issues with my PCBs 
 
 ------------- 
 ## XTend Daughterboard
-<a name="87085"></span>
+<a name="25853"></span>
 ### Version 1
 
 #### Functional
@@ -493,7 +494,7 @@ This github repo parses my internal shorthand for recording issues with my PCBs 
 - Inductor pads too close together (check that moving apart doesn't expose ground plane to pads, maybe only an outward widening of pads is required) #note, these are actually perfect, they just are meant to reflow. i widened the pads to enable hand-soldering
 
 ------------- 
-<a name="15808"></span>
+<a name="42003"></span>
 ### Version 2
 
 #### Potential changes 
@@ -516,7 +517,7 @@ This github repo parses my internal shorthand for recording issues with my PCBs 
 - Increase size of aux holes, slightly
 
 ------------- 
-<a name="56291"></span>
+<a name="76855"></span>
 ### Version 3
 
 #### Silkscreen 
@@ -541,7 +542,7 @@ This github repo parses my internal shorthand for recording issues with my PCBs 
 - Add temperature sensor under the xtend? [no, because there is no uc on the ebox version, and we don't care about the temp of the xtend on the ground station]
 
 ------------- 
-<a name="97747"></span>
+<a name="31953"></span>
 ### Version 4
 
 #### Functional 
@@ -553,7 +554,7 @@ This github repo parses my internal shorthand for recording issues with my PCBs 
 ------------- 
 # Personal
 ## LATCH
-<a name="58586"></span>
+<a name="83670"></span>
 ### Version 1
 
 #### Functional
