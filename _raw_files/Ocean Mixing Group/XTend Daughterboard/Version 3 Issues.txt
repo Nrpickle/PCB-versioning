@@ -6,6 +6,7 @@ Switch to DF13's that can solder to the board (e.g. the ones the Pixhawk uses)
 
 __ Functional __ 
 
+Important! The middle pin of the MCU header needs to be connected to the middle pin of the debug header (DI) with a bodge wire
 
 __ Documentation __ 
 Molex connector pinout needs to be fixed on internal documentation (they are currently reversed)
