@@ -1,0 +1,12 @@
+__ Silkscreen __
+
+Move U1 component label off of the orientation dot
+
+__ Functional __
+
+__ Component Selection __ 
+
+__ Inventory __
+
+__ Documentation __
+
